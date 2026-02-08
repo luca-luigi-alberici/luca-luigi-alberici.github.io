@@ -262,3 +262,9 @@
     }
   }
 }
+
+/* Impedisce al link dell'employer di andare a capo */
+.author__content .employer a {
+  white-space: nowrap;
+}
+
