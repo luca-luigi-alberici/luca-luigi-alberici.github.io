@@ -28,8 +28,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Ph.D. Student in Finance"
   location         : "London, UK"
-  employer         : employer: |
-                      <a href="https://www.bayes.city.ac.uk/" target="_blank">Bayes</a>
+  employer         : "Bayes Business School"
   email            : "luca-luigi.alberici@bayes.city.ac.uk" 
 
   # Academic websites
