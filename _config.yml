@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Luca Luigi Alberici"
+title                    : "Luca's page"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -27,10 +27,10 @@ author:
   name             : "Luca Luigi Alberici"
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
-  uri              : # URL
-  email            : "none@example.org" 
+  location         : "London, UK"
+  employer         : "Bayes Business School"
+  uri              : "https://www.bayes.citystgeorges.ac.uk/"
+  email            : "luca-luigi.alberici@bayes.city.ac.uk" 
 
   # Academic websites
   academia         : # URL
