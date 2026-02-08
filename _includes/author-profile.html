@@ -28,13 +28,9 @@
         <li class="author__desktop"><i class="fas fa-fw fa-location-dot icon-pad-right" aria-hidden="true"></i>{{ author.location }}</li>
       {% endif %}
       {% if author.employer %}
-        <li>
-          <i class="fa fa-fw fa-building" aria-hidden="true"></i> 
-          {% if author.employer contains "http" %}
-            <a href="{{ author.employer }}" target="_blank">Bayes Business School</a>
-          {% else %}
-            {{ author.employer }}
-          {% endif %}
+        <li class="author__desktop">
+          <i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>
+          <a href="https://www.bayes.city.ac.uk/" target="_blank">{{ author.employer }}</a>
         </li>
       {% endif %}
       {% if author.uri %}
