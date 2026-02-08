@@ -26,9 +26,9 @@ author:
   avatar           : "profile.png"
   name             : "Luca Luigi Alberici"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "Ph.D. Student in Finance"
   location         : "London, UK"
-  employer         : '<a href="https://www.bayes.citystgeorges.ac.uk/">Bayes Business School</a>'
+  employer         : '<a href="https://www.bayes.citystgeorges.ac.uk/">Bayes</a>'
   email            : "luca-luigi.alberici@bayes.city.ac.uk" 
 
   # Academic websites
@@ -61,7 +61,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : https://www.linkedin.com/in/luca-luigi-alberici-37820a21b/
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
