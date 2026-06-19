@@ -4,7 +4,6 @@ permalink: /publications/
 title: "Working Papers"
 author_profile: true
 ---
-
 <style>
 .ssrn-btn {
   display: inline-block;
@@ -22,12 +21,15 @@ author_profile: true
 details { margin-top: 0.5em; margin-bottom: 1.5em; }
 details summary {
   cursor: pointer;
+  color: #52adc8;
   font-weight: bold;
   font-size: 0.92em;
   list-style: none;
   user-select: none;
 }
 details summary::-webkit-details-marker { display: none; }
+details summary::after { content: ' ▶'; }
+details[open] summary::after { content: ' ▼'; }
 .abstract-box {
   margin-top: 0.6em;
   background: rgba(128,128,128,0.1);
@@ -35,12 +37,6 @@ details summary::-webkit-details-marker { display: none; }
   padding: 0.9em 1.1em;
   font-size: 0.93em;
   line-height: 1.65;
-}
-details summary::after {
-  content: ' ▶';
-}
-details[open] summary::after {
-  content: ' ▼';
 }
 </style>
 
