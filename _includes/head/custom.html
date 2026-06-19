@@ -2,13 +2,8 @@
 <!-- start custom head snippets -->
 <!-- Support for Academicons -->
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
-<!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
-<link rel="apple-touch-icon" sizes="180x180" href="{{ base_path }}/images/apple-touch-icon-180x180.png"/>
-<link rel="icon" type="image/svg+xml" href="{{ base_path }}/images/favicon.svg"/>
-<link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-32x32.png" sizes="32x32"/>
-<link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-192x192.png" sizes="192x192"/>
-<link rel="manifest" href="{{ base_path }}/images/manifest.json"/>
-<link rel="icon" href="/images/favicon.ico"/>
+<link rel="icon" type="image/png" href="/images/city-crest.png"/>
+<link rel="apple-touch-icon" href="/images/city-crest.png"/>
 <meta name="theme-color" content="#ffffff"/>
 <!-- dark mode + logo -->
 <style>
@@ -34,17 +29,6 @@ document.addEventListener('DOMContentLoaded', function () {
   new MutationObserver(applyDarkBg).observe(document.body,
     { attributes: true, attributeFilter: ['class'] });
 
-  /* --- City crest logo in masthead --- */
-  var nav = document.querySelector('.masthead__inner-wrap .site-title') ||
-            document.querySelector('.masthead__inner-wrap a');
-  if (nav && !document.querySelector('.city-crest-logo')) {
-    var img = document.createElement('img');
-    img.src = '/images/city-crest.png';
-    img.className = 'city-crest-logo';
-    img.alt = 'City, University of London';
-    img.style.cssText = 'height:36px; width:auto; margin-right:8px; vertical-align:middle; display:inline-block;';
-    nav.parentNode.insertBefore(img, nav);
-  }
 });
 </script>
 <!-- end custom head snippets -->
