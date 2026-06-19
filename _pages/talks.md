@@ -59,7 +59,19 @@ details[open] summary::after { content: ' ▼'; }
 <a class="talk-paper" href="/publications/">Implied Impermanent Loss for Concentrated Liquidity</a>
 
 <div class="conf-item">
-<div class="talk-conference">8th QMUL Economics and Finance Workshop / 3rd QRFE Workshop on Quantitative Finance</div>
+<div class="talk-conference">[8th QMUL Economics and Finance Workshop](https://www.qmul.ac.uk/sef/events/conferences/items/8th-qmul-economics-and-finance-workshop-for-phd--post-doctoral-students.html)</div>
+<div class="talk-venue">London, UK — 21-22 May 2026</div>
+<details>
+<summary>Photos</summary>
+<div class="photos-box">
+  <img src="/images/conf_durham_2026_1.jpeg" alt="Durham 2026" style="width:49%;">
+  <img src="/images/conf_durham_2026_2.jpeg" alt="Durham 2026" style="width:49%;">
+</div>
+</details>
+</div>
+
+<div class="conf-item">
+<div class="talk-conference">[3rd QRFE Workshop on Quantitative Finance](https://www.durham.ac.uk/business/news-and-events/events/2026/05/qrfe-quant-finance-workshop/)</div>
 <div class="talk-venue">Durham, UK — 6 May 2026</div>
 <details>
 <summary>Photos</summary>
@@ -71,7 +83,7 @@ details[open] summary::after { content: ' ▼'; }
 </div>
 
 <div class="conf-item">
-<div class="talk-conference">8th Blockchain International Scientific Conference (ISC2026)</div>
+<div class="talk-conference">[8th Blockchain International Scientific Conference (ISC2026)](https://britishblockchainassociation.org/isc2026/)</div>
 <div class="talk-venue">London, UK — 27 March 2026</div>
 <details>
 <summary>Photos</summary>
@@ -84,8 +96,8 @@ details[open] summary::after { content: ' ▼'; }
 </div>
 
 <div class="conf-item">
-<div class="talk-conference">Decentralized Finance &amp; Crypto Workshop, Scuola Normale Superiore</div>
-<div class="talk-venue">Pisa, Italy — 26 January 2026</div>
+<div class="talk-conference">[Decentralized Finance &amp; Crypto Workshop, Scuola Normale Superiore](https://www.sns.it/it/evento/defi-crypto)</div>
+<div class="talk-venue">Pisa, Italy — 26-28 January 2026</div>
 <details>
 <summary>Photos</summary>
 <div class="photos-box">
@@ -97,8 +109,8 @@ details[open] summary::after { content: ' ▼'; }
 </div>
 
 <div class="conf-item">
-<div class="talk-conference">Algo-trading &amp; DeFi Conference</div>
-<div class="talk-venue">Milan, Italy — 16 October 2025</div>
+<div class="talk-conference">[Algo-trading &amp; DeFi Conference](https://www.mate.polimi.it/events/ALGODEFI25/)</div>
+<div class="talk-venue">Milan, Italy — 16-17 October 2025</div>
 <details>
 <summary>Photos</summary>
 <div class="photos-box">
@@ -118,7 +130,7 @@ details[open] summary::after { content: ' ▼'; }
 
 <div class="conf-item">
 <div class="talk-conference">PhD Finance and Accounting Research Day</div>
-<div class="talk-venue">Bayes Business School, London, UK — 1 May 2026</div>
+<div class="talk-venue">Bayes Business School, London, UK — 2 June 2026</div>
 <details>
 <summary>Photos</summary>
 <div class="photos-box">
@@ -128,7 +140,7 @@ details[open] summary::after { content: ' ▼'; }
 </div>
 
 <div class="conf-item">
-<div class="talk-conference">Seminari Matematici Statistici</div>
+<div class="talk-conference">[Seminari Matematici Statistici](https://sites.google.com/uniupo.it/seminari-ms/home-page)</div>
 <div class="talk-venue">Università del Piemonte Orientale, Novara, Italy — 13 April 2026</div>
 <details>
 <summary>Photos</summary>
