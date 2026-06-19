@@ -40,15 +40,12 @@ author_profile: true
   margin-top: 0.25em;
 }
 .pub-authors a {
-  color: #52adc8;
   text-decoration: none;
-  opacity: 1;
 }
 .pub-authors a:hover { text-decoration: underline; }
 details { margin-top: 0.6em; }
 details summary {
   cursor: pointer;
-  color: #52adc8;
   font-weight: bold;
   font-size: 0.92em;
   list-style: none;
