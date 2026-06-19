@@ -51,6 +51,18 @@ details summary::-webkit-details-marker { display: none; }
 </style>
 
 <div class="talk-entry">
+  <div><a class="talk-paper" href="/publications/">Estimation of a Hierarchical Normal-Inverse Gaussian Factor Model via the EM Algorithm</a></div>
+  <div class="talk-conference">PhD Finance and Accounting Research Day</div>
+  <div class="talk-venue">Bayes Business School, London, UK — 1 May 2026</div>
+  <details>
+    <summary>Photos ▸</summary>
+    <div class="photos-box">
+      <img src="/images/conf_phd_research_day_2026.png" alt="PhD Research Day 2026" style="width:60%;">
+    </div>
+  </details>
+</div>
+
+<div class="talk-entry">
   <div><a class="talk-paper" href="/publications/">Implied Impermanent Loss for Concentrated Liquidity</a></div>
   <div class="talk-conference">8th QMUL Economics and Finance Workshop / 3rd QRFE Workshop on Quantitative Finance</div>
   <div class="talk-venue">Durham, UK — 6 May 2026</div>
@@ -59,18 +71,6 @@ details summary::-webkit-details-marker { display: none; }
     <div class="photos-box">
       <img src="/images/conf_durham_2026_1.jpeg" alt="Durham 2026" style="width:49%;">
       <img src="/images/conf_durham_2026_2.jpeg" alt="Durham 2026" style="width:49%;">
-    </div>
-  </details>
-</div>
-
-<div class="talk-entry">
-  <div><a class="talk-paper" href="/publications/">Estimation of a Hierarchical Normal-Inverse Gaussian Factor Model via the EM Algorithm</a></div>
-  <div class="talk-conference">PhD Finance and Accounting Research Day</div>
-  <div class="talk-venue">Bayes Business School, London, UK — 1 May 2026</div>
-  <details>
-    <summary>Photos ▸</summary>
-    <div class="photos-box">
-      <img src="/images/conf_phd_research_day_2026.png" alt="PhD Research Day 2026" style="width:60%;">
     </div>
   </details>
 </div>
