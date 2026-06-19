@@ -40,6 +40,7 @@ author_profile: true
   margin-top: 0.25em;
 }
 .pub-authors a {
+  color: #52adc8;
   text-decoration: none;
   opacity: 1;
 }

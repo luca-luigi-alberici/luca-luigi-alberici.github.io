@@ -15,6 +15,7 @@ author_profile: true
 .talk-paper {
   font-size: 1.05em;
   font-weight: bold;
+  color: #52adc8;
   text-decoration: none;
 }
 .talk-paper:hover { text-decoration: underline; }
