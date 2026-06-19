@@ -8,7 +8,6 @@ locale                   : "en-US"
 site_theme               : "default"
 title                    : "Luca Luigi Alberici"
 title_separator          : "-"
-logo                     : "/images/city-crest.png"
 name                     : &name "Luca Luigi Alberici"
 description              : &description "PhD Student in Finance | Bayes Business School | Quantitative Finance & Machine Learning"
 url                      : https://luca-luigi-alberici.github.io
