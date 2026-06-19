@@ -5,16 +5,12 @@
 <link rel="icon" type="image/png" href="/images/city-crest.png"/>
 <link rel="apple-touch-icon" href="/images/city-crest.png"/>
 <meta name="theme-color" content="#ffffff"/>
-<!-- dark mode + logo -->
 <style>
-/* cover all possible dark mode selectors */
 html.dark body, body.dark, [data-theme="dark"] body,
 html[data-color-mode="dark"] body { background-color: #000 !important; }
 </style>
 <script>
 document.addEventListener('DOMContentLoaded', function () {
-
-  /* --- black background in dark mode --- */
   function applyDarkBg() {
     var dark =
       document.documentElement.classList.contains('dark') ||
@@ -28,31 +24,6 @@ document.addEventListener('DOMContentLoaded', function () {
     { attributes: true, attributeFilter: ['class','data-theme','data-color-mode'] });
   new MutationObserver(applyDarkBg).observe(document.body,
     { attributes: true, attributeFilter: ['class'] });
-
-  /* --- sync <summary> color with theme link color --- */
-  function syncSummaryColor() {
-    var dark =
-      document.documentElement.classList.contains('dark') ||
-      document.body.classList.contains('dark') ||
-      document.documentElement.getAttribute('data-theme') === 'dark' ||
-      document.documentElement.getAttribute('data-color-mode') === 'dark';
-    if (dark) {
-      document.querySelectorAll('details summary').forEach(function(s) {
-        s.style.color = 'white';
-      });
-      return;
-    }
-    var a = document.querySelector('.page__content a, article a, a[href]');
-    if (!a) return;
-    var color = getComputedStyle(a).color;
-    document.querySelectorAll('details summary').forEach(function(s) {
-      s.style.color = color;
-    });
-  }
-  syncSummaryColor();
-  new MutationObserver(syncSummaryColor).observe(document.documentElement,
-    { attributes: true, attributeFilter: ['class','data-theme','data-color-mode'] });
-
 });
 </script>
 <!-- end custom head snippets -->
