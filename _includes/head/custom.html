@@ -10,10 +10,41 @@
 <link rel="manifest" href="{{ base_path }}/images/manifest.json"/>
 <link rel="icon" href="/images/favicon.ico"/>
 <meta name="theme-color" content="#ffffff"/>
-<!-- dark mode: pure black background -->
+<!-- dark mode + logo -->
 <style>
-html.dark, html.dark body {
-  background-color: #000 !important;
-}
+/* cover all possible dark mode selectors */
+html.dark body, body.dark, [data-theme="dark"] body,
+html[data-color-mode="dark"] body { background-color: #000 !important; }
 </style>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+
+  /* --- black background in dark mode --- */
+  function applyDarkBg() {
+    var dark =
+      document.documentElement.classList.contains('dark') ||
+      document.body.classList.contains('dark') ||
+      document.documentElement.getAttribute('data-theme') === 'dark' ||
+      document.documentElement.getAttribute('data-color-mode') === 'dark';
+    document.body.style.backgroundColor = dark ? '#000' : '';
+  }
+  applyDarkBg();
+  new MutationObserver(applyDarkBg).observe(document.documentElement,
+    { attributes: true, attributeFilter: ['class','data-theme','data-color-mode'] });
+  new MutationObserver(applyDarkBg).observe(document.body,
+    { attributes: true, attributeFilter: ['class'] });
+
+  /* --- City crest logo in masthead --- */
+  var nav = document.querySelector('.masthead__inner-wrap .site-title') ||
+            document.querySelector('.masthead__inner-wrap a');
+  if (nav && !document.querySelector('.city-crest-logo')) {
+    var img = document.createElement('img');
+    img.src = '/images/city-crest.png';
+    img.className = 'city-crest-logo';
+    img.alt = 'City, University of London';
+    img.style.cssText = 'height:36px; width:auto; margin-right:8px; vertical-align:middle; display:inline-block;';
+    nav.parentNode.insertBefore(img, nav);
+  }
+});
+</script>
 <!-- end custom head snippets -->
