@@ -9,7 +9,7 @@ author_profile: true
 .pub-entry {
   margin-bottom: 2.2em;
   padding-bottom: 1.8em;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid rgba(128,128,128,0.25);
 }
 .pub-entry:last-child { border-bottom: none; }
 .pub-title-row {
@@ -21,29 +21,28 @@ author_profile: true
 .pub-title {
   font-size: 1.1em;
   font-weight: bold;
-  color: #222;
 }
 .ssrn-btn {
   display: inline-block;
-  border: 1px solid #bbb;
+  border: 1px solid rgba(128,128,128,0.5);
   border-radius: 4px;
   padding: 1px 8px;
   font-size: 0.78em;
-  color: #999;
-  background: #fafafa;
+  color: rgba(128,128,128,0.8);
+  background: transparent;
   cursor: default;
   font-weight: normal;
   white-space: nowrap;
 }
 .pub-authors {
-  color: #666;
+  opacity: 0.65;
   font-size: 0.93em;
   margin-top: 0.25em;
 }
 details { margin-top: 0.6em; }
 details summary {
   cursor: pointer;
-  color: #1a56a0;
+  color: #1a73e8;
   font-weight: bold;
   font-size: 0.92em;
   list-style: none;
@@ -52,12 +51,11 @@ details summary {
 details summary::-webkit-details-marker { display: none; }
 .abstract-box {
   margin-top: 0.6em;
-  background: #f7f8fa;
+  background: rgba(128,128,128,0.1);
   border-radius: 6px;
   padding: 0.9em 1.1em;
   font-size: 0.93em;
   line-height: 1.65;
-  color: #333;
 }
 </style>
 

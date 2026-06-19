@@ -9,13 +9,13 @@ author_profile: true
 .talk-entry {
   margin-bottom: 2em;
   padding-bottom: 1.8em;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid rgba(128,128,128,0.25);
 }
 .talk-entry:last-child { border-bottom: none; }
 .talk-paper {
   font-size: 1.05em;
   font-weight: bold;
-  color: #1a56a0;
+  color: #1a73e8;
   text-decoration: none;
 }
 .talk-paper:hover { text-decoration: underline; }
@@ -25,12 +25,12 @@ author_profile: true
 }
 .talk-venue {
   font-style: italic;
-  color: #555;
+  opacity: 0.65;
 }
 details { margin-top: 0.6em; }
 details summary {
   cursor: pointer;
-  color: #1a56a0;
+  color: #1a73e8;
   font-weight: bold;
   font-size: 0.92em;
   list-style: none;
