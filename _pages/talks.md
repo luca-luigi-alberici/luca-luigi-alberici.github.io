@@ -64,8 +64,8 @@ details[open] summary::after { content: ' ▼'; }
 <details>
 <summary>Photos</summary>
 <div class="photos-box">
-  <img src="/images/conf_durham_2026_1.jpeg" alt="QMUL 2026" style="width:49%;">
-  <img src="/images/conf_durham_2026_2.jpeg" alt="QMUL 2026" style="width:49%;">
+  <img src="/images/conf_qmul_2026_1.jpeg" alt="QMUL 2026" style="width:49%;">
+  <img src="/images/conf_qmul_2026_2.jpeg" alt="QMUL 2026" style="width:49%;">
 </div>
 </details>
 </div>
@@ -76,8 +76,9 @@ details[open] summary::after { content: ' ▼'; }
 <details>
 <summary>Photos</summary>
 <div class="photos-box">
-  <img src="/images/conf_durham_2026_1.jpeg" alt="Durham 2026" style="width:49%;">
-  <img src="/images/conf_durham_2026_2.jpeg" alt="Durham 2026" style="width:49%;">
+  <img src="/images/conf_durham_2026_1.jpeg" alt="Durham 2026" style="width:32%;">
+  <img src="/images/conf_durham_2026_2.jpeg" alt="Durham 2026" style="width:32%;">
+  <img src="/images/conf_durham_2026_3.jpeg" alt="Durham 2026" style="width:32%;">
 </div>
 </details>
 </div>
