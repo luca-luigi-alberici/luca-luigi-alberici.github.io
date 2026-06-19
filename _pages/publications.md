@@ -39,6 +39,14 @@ author_profile: true
   font-size: 0.93em;
   margin-top: 0.25em;
 }
+.pub-authors a {
+  color: #1a73e8;
+  text-decoration: none;
+  opacity: 1;
+}
+.pub-authors a:hover {
+  text-decoration: underline;
+}
 details { margin-top: 0.6em; }
 details summary {
   cursor: pointer;
@@ -64,7 +72,7 @@ details summary::-webkit-details-marker { display: none; }
     <span class="pub-title">Estimation of a Hierarchical Normal-Inverse Gaussian Factor Model via the EM Algorithm</span>
     <span class="ssrn-btn">SSRN</span>
   </div>
-  <div class="pub-authors">with L. Ballotta and G. Fusai</div>
+  <div class="pub-authors">with <a href="https://scholar.google.com/citations?user=rmmGBqMAAAAJ&hl=en" target="_blank">L. Ballotta</a> and <a href="https://scholar.google.com/citations?user=j92IMd0AAAAJ&hl=it" target="_blank">G. Fusai</a></div>
   <details>
     <summary>Abstract ▸</summary>
     <div class="abstract-box">
@@ -78,7 +86,7 @@ details summary::-webkit-details-marker { display: none; }
     <span class="pub-title">Implied Impermanent Loss for Concentrated Liquidity</span>
     <span class="ssrn-btn">SSRN</span>
   </div>
-  <div class="pub-authors">with A. Papanicolaou and L. Schoenleber</div>
+  <div class="pub-authors">with <a href="https://math.sciences.ncsu.edu/people/apapani/" target="_blank">A. Papanicolaou</a> and <a href="https://sites.google.com/view/lorenzo-schoenleber/menu" target="_blank">L. Schoenleber</a></div>
   <details>
     <summary>Abstract ▸</summary>
     <div class="abstract-box">
@@ -92,7 +100,7 @@ details summary::-webkit-details-marker { display: none; }
     <span class="pub-title">Disciplined Learning: A GenAI Framework for Arbitrage-Free Term Structures</span>
     <span class="ssrn-btn">SSRN</span>
   </div>
-  <div class="pub-authors">with L. Ballotta and G. Fusai</div>
+  <div class="pub-authors">with <a href="https://scholar.google.com/citations?user=rmmGBqMAAAAJ&hl=en" target="_blank">L. Ballotta</a> and <a href="https://scholar.google.com/citations?user=j92IMd0AAAAJ&hl=it" target="_blank">G. Fusai</a></div>
   <details>
     <summary>Abstract ▸</summary>
     <div class="abstract-box">
@@ -106,7 +114,7 @@ details summary::-webkit-details-marker { display: none; }
     <span class="pub-title">Technical Efficiency: A Regularization-Based Framework</span>
     <span class="ssrn-btn">SSRN</span>
   </div>
-  <div class="pub-authors">with F. Centrone and A. Goia</div>
+  <div class="pub-authors">with <a href="https://upobook.uniupo.it/francesca.centrone" target="_blank">F. Centrone</a> and <a href="https://scholar.google.com/citations?user=qP_hjCcAAAAJ&hl=it" target="_blank">A. Goia</a></div>
   <details>
     <summary>Abstract ▸</summary>
     <div class="abstract-box">
