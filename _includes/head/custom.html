@@ -31,6 +31,17 @@ document.addEventListener('DOMContentLoaded', function () {
 
   /* --- sync <summary> color with theme link color --- */
   function syncSummaryColor() {
+    var dark =
+      document.documentElement.classList.contains('dark') ||
+      document.body.classList.contains('dark') ||
+      document.documentElement.getAttribute('data-theme') === 'dark' ||
+      document.documentElement.getAttribute('data-color-mode') === 'dark';
+    if (dark) {
+      document.querySelectorAll('details summary').forEach(function(s) {
+        s.style.color = 'white';
+      });
+      return;
+    }
     var a = document.querySelector('.page__content a, article a, a[href]');
     if (!a) return;
     var color = getComputedStyle(a).color;
