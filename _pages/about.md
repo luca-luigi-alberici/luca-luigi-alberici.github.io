@@ -11,7 +11,7 @@ I am a Doctoral Candidate in Finance at [Bayes Business School](https://www.baye
 
 I develop high-dimensional models using Bayesian inference, latent factor structures, and EM-based estimation techniques. My current work also investigates liquidity provision risk in decentralised finance and the use of advanced statistical methods for financial decision-making under uncertainty.
 
-I hold a Merit-based full-tuition fee waiver at Bayes and previously completed an MSc in Finance, Insurance & Risk Management at [Collegio Carlo Alberto](https://www.carloalberto.org/) (Turin) with a 90% merit scholarship. I graduated with 110/110 cum laude from Università del Piemonte Orientale at both BSc and MSc level.
+I hold a merit-based full-tuition fee waiver at Bayes and previously completed an MSc in Finance, Insurance & Risk Management at [Collegio Carlo Alberto](https://www.carloalberto.org/) (Turin) with a 90% merit scholarship. I graduated with 110/110 *cum laude* from Università del Piemonte Orientale at both BSc and MSc level.
 
 ## Research Interests
 
@@ -22,4 +22,4 @@ Statistical learning · Machine learning in finance · Quantitative risk managem
 - **June 2026** — Joined the [Institute and Faculty of Actuaries (IFoA)](https://actuaries.org.uk/) as member of the General Insurance – Machine Learning in Reserving Working Party.
 - **June 2026** — Presenting at the XIII Bachelier World Congress (Bologna), QMUL Economics and Finance Workshop (Durham), and 8th Blockchain International Scientific Conference (London).
 - **March 2026** — Awarded Teaching Certificate (Advance Higher Education, UK).
-- **Sept 2025** — Started PhD in Finance at Bayes Business School.
+- **September 2025** — Started PhD in Finance at Bayes Business School.
