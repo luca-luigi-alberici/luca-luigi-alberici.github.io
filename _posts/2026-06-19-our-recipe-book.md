@@ -7,7 +7,7 @@ tags:
   - personal
 ---
 
-Outside of research, one of my favourite things to do is cook. Together with Kay, we have put together a small recipe book collecting our favourite dishes — a mix of Burmese, Italian, Japanese, and international recipes that we love making at home.
+Outside of research, one of my favourite things to do is cook. Together with Kay, we have put together a small recipe book collecting our favourite dishes — a mix of Burmese, Italian, and international recipes that we love making at home.
 
 The book includes several recipes, including Braised Pork Shoulder, a modern take on Carbonara, Tiramisù, and Nonna Cake.
 
