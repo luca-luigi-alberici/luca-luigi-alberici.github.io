@@ -36,6 +36,9 @@ details summary::-webkit-details-marker { display: none; }
   font-size: 0.93em;
   line-height: 1.65;
 }
+html.dark details summary {
+  color: white !important;
+}
 </style>
 
 ---
