@@ -8,9 +8,10 @@ date: 2025-10-16
 location: "Milan, Italy"
 ---
 
-Presented *Implied Impermanent Loss for Concentrated Liquidity* at the Algo-trading & DeFi Conference, Milan.
+**Algo-trading & DeFi Conference**  
+*Milan, Italy* — 16 October 2025
 
-<figure style="display:flex; gap:10px; flex-wrap:wrap;">
+<figure style="display:flex; gap:10px; flex-wrap:wrap; margin-top:1em;">
   <img src="/images/conf_algodefi_milan_2025_1.jpeg" alt="Algo-trading DeFi Conference Milan 2025" style="max-width:32%; border-radius:6px;">
   <img src="/images/conf_algodefi_milan_2025_2.jpeg" alt="Algo-trading DeFi Conference Milan 2025" style="max-width:32%; border-radius:6px;">
   <img src="/images/conf_algodefi_milan_2025_3.jpeg" alt="Algo-trading DeFi Conference Milan 2025" style="max-width:32%; border-radius:6px;">
