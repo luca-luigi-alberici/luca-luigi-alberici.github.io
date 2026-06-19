@@ -15,7 +15,6 @@ author_profile: true
 .talk-paper {
   font-size: 1.05em;
   font-weight: bold;
-  color: #2563a8;
   text-decoration: none;
 }
 .talk-paper:hover { text-decoration: underline; }
@@ -30,19 +29,13 @@ author_profile: true
 details { margin-top: 0.6em; }
 details summary {
   cursor: pointer;
-  color: #2563a8;
+  color: #52adc8;
   font-weight: bold;
   font-size: 0.92em;
   list-style: none;
   user-select: none;
 }
 details summary::-webkit-details-marker { display: none; }
-/* dark mode */
-@media (prefers-color-scheme: dark) {
-  .talk-paper, details summary { color: #93c5fd; }
-}
-html.dark .talk-paper,
-html.dark details summary { color: #93c5fd; }
 .photos-box {
   display: flex;
   gap: 8px;

@@ -40,7 +40,6 @@ author_profile: true
   margin-top: 0.25em;
 }
 .pub-authors a {
-  color: #2563a8;
   text-decoration: none;
   opacity: 1;
 }
@@ -48,19 +47,13 @@ author_profile: true
 details { margin-top: 0.6em; }
 details summary {
   cursor: pointer;
-  color: #2563a8;
+  color: #52adc8;
   font-weight: bold;
   font-size: 0.92em;
   list-style: none;
   user-select: none;
 }
 details summary::-webkit-details-marker { display: none; }
-/* dark mode */
-@media (prefers-color-scheme: dark) {
-  .pub-authors a, details summary { color: #93c5fd; }
-}
-html.dark .pub-authors a,
-html.dark details summary { color: #93c5fd; }
 .abstract-box {
   margin-top: 0.6em;
   background: rgba(128,128,128,0.1);
