@@ -17,7 +17,7 @@ Qualification for Teaching in UK Higher Education, awarded by Bayes Business Sch
 ## Financial Econometrics
 
 **MSc level** — Imperial College Business School *(a.y. 2025–2026)*  
-Module Leader: Dr. Roald Versteeg
+Module Leader: [Dr. Roald Versteeg](https://profiles.imperial.ac.uk/r.versteeg)
 
 Graduate Teaching Assistant covering: (Multiple) Regression Analysis, OLS Diagnostic tests, (Multivariate) ARMA modelling and time series forecasting, Unit Roots, Rolling-window Factor Models estimation, Resampling methods and bootstrap inference, Cointegration and pairs trading strategies, Volatility modelling, Machine Learning techniques in Financial Econometrics.
 
