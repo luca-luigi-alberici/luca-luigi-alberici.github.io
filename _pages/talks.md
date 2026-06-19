@@ -35,13 +35,17 @@ details summary {
   list-style: none;
   user-select: none;
 }
-details summary::-webkit-details-marker { display: none; }
-.photos-box {
-  display: flex;
-  gap: 8px;
-  flex-wrap: wrap;
-  margin-top: 0.7em;
+details summary {
+  cursor: pointer;
+  color: #52adc8;
+  font-weight: bold;
+  font-size: 0.92em;
+  list-style: none;
+  user-select: none;
 }
+details summary::-webkit-details-marker { display: none; }
+details summary::after { content: ' ▶'; }
+details[open] summary::after { content: ' ▼'; }
 .photos-box img {
   border-radius: 6px;
   max-height: 220px;
