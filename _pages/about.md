@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Doctoral Candidate in Finance at [Bayes Business School](https://www.bayes.city.ac.uk/), specialising in Financial Engineering and Mathematical Finance. My research focuses on statistical learning, machine learning, and quantitative risk management, with applications to asset pricing, forecasting, and financial markets.
+I am a Doctoral Candidate in Finance under the supervision of Professor [L. Ballotta](https://scholar.google.com/citations?user=rmmGBqMAAAAJ&hl=en) and Professor [G. Fusai](https://scholar.google.com/citations?user=j92IMd0AAAAJ&hl=it) at [Bayes Business School](https://www.bayes.city.ac.uk/), specialising in Financial Engineering and Mathematical Finance. My research focuses on statistical learning, machine learning, and quantitative risk management, with applications to asset pricing, forecasting, and financial markets.
 
 I develop high-dimensional models using Bayesian inference, latent factor structures, and EM-based estimation techniques. My current work also investigates liquidity provision risk in decentralised finance and the use of advanced statistical methods for financial decision-making under uncertainty.
 
