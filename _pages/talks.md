@@ -60,12 +60,12 @@ details[open] summary::after { content: ' ▼'; }
 
 <div class="conf-item">
 <div class="talk-conference"><a href="https://eventi.unibo.it/bachelier">XIII Bachelier World Congress</a></div>
-<div class="talk-venue">Bologna, IT — 29 June – 3 July 2026</div>
+<div class="talk-venue">Bachelier Finance Society &amp; University of Bologna, Bologna, IT — 29 June – 3 July 2026</div>
 </div>
 
 <div class="conf-item">
 <div class="talk-conference"><a href="https://www.qmul.ac.uk/sef/events/conferences/items/8th-qmul-economics-and-finance-workshop-for-phd--post-doctoral-students.html">8th QMUL Economics and Finance Workshop</a></div>
-<div class="talk-venue">London, UK — 21–22 May 2026</div>
+<div class="talk-venue">Queen Mary University of London, London, UK — 21–22 May 2026</div>
 <details>
 <summary>Photos</summary>
 <div class="photos-box">
@@ -77,7 +77,7 @@ details[open] summary::after { content: ' ▼'; }
 
 <div class="conf-item">
 <div class="talk-conference"><a href="https://www.durham.ac.uk/business/news-and-events/events/2026/05/qrfe-quant-finance-workshop/">3rd QRFE Workshop on Quantitative Finance</a></div>
-<div class="talk-venue">Durham, UK — 6 May 2026</div>
+<div class="talk-venue">Durham University Business School, Durham, UK — 6 May 2026</div>
 <details>
 <summary>Photos</summary>
 <div class="photos-box">
@@ -90,7 +90,7 @@ details[open] summary::after { content: ' ▼'; }
 
 <div class="conf-item">
 <div class="talk-conference"><a href="https://britishblockchainassociation.org/isc2026/">8th Blockchain International Scientific Conference (ISC2026)</a></div>
-<div class="talk-venue">London, UK — 27 March 2026</div>
+<div class="talk-venue">British Blockchain Association, London, UK — 27 March 2026</div>
 <details>
 <summary>Photos</summary>
 <div class="photos-box">
@@ -103,7 +103,7 @@ details[open] summary::after { content: ' ▼'; }
 
 <div class="conf-item">
 <div class="talk-conference"><a href="https://www.sns.it/it/evento/defi-crypto">Decentralized Finance &amp; Crypto Workshop, Scuola Normale Superiore</a></div>
-<div class="talk-venue">Pisa, IT — 26–28 January 2026</div>
+<div class="talk-venue">Scuola Normale Superiore, Pisa, IT — 26–28 January 2026</div>
 <details>
 <summary>Photos</summary>
 <div class="photos-box">
@@ -116,7 +116,7 @@ details[open] summary::after { content: ' ▼'; }
 
 <div class="conf-item">
 <div class="talk-conference"><a href="https://www.mate.polimi.it/events/ALGODEFI25/">Algo-trading &amp; DeFi Conference</a></div>
-<div class="talk-venue">Milan, IT — 16–17 October 2025</div>
+<div class="talk-venue">Politecnico di Milano, Milan, IT — 16–17 October 2025</div>
 <details>
 <summary>Photos</summary>
 <div class="photos-box">
@@ -136,12 +136,12 @@ details[open] summary::after { content: ' ▼'; }
 
 <div class="conf-item">
 <div class="talk-conference"><a href="https://iccf26.web.ox.ac.uk/">International Conference on Computational Finance</a></div>
-<div class="talk-venue">Oxford, UK — 1-4 September 2026</div>
+<div class="talk-venue">University of Oxford &amp; Oxford Man Institute of Quantitative Finance, Oxford, UK — 1-4 September 2026</div>
 </div>
 
 <div class="conf-item">
 <div class="talk-conference"><a href="https://eventi.unibo.it/bachelier">XIII Bachelier World Congress</a></div>
-<div class="talk-venue">Bologna, IT — 29 June – 3 July 2026</div>
+<div class="talk-venue">Bachelier Finance Society &amp; University of Bologna, Bologna, IT — 29 June – 3 July 2026</div>
 </div>
 
 <div class="conf-item">
