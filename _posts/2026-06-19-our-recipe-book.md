@@ -11,6 +11,6 @@ Outside of research, one of my favourite things to do is cook. Together with Kay
 
 The book includes several recipes, including Braised Pork Shoulder, a modern take on Carbonara, Tiramisù, and Nonna Cake.
 
-📖 **[Download the Recipe Book (PDF)](/files/our-recipe-book.pdf)**
+📖 **[Download the Recipe Book (PDF)](/files/our_recipe_book.pdf)**
 
 *We keep updating it as we try new things and refine our recipes. We are currently preparing a new edition for submission to the Journal of Cooking, so check back for future updates and releases!*
