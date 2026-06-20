@@ -61,8 +61,6 @@ details[open] summary::after { content: ' ▼'; }
 <div class="conf-item">
 <div class="talk-conference"><a href="https://eventi.unibo.it/bachelier">XIII Bachelier World Congress</a></div>
 <div class="talk-venue">Bologna, IT — 29 June – 3 July 2026</div>
-<details>
-</details>
 </div>
 
 <div class="conf-item">
@@ -105,7 +103,7 @@ details[open] summary::after { content: ' ▼'; }
 
 <div class="conf-item">
 <div class="talk-conference"><a href="https://www.sns.it/it/evento/defi-crypto">Decentralized Finance &amp; Crypto Workshop, Scuola Normale Superiore</a></div>
-<div class="talk-venue">Pisa, Italy — 26–28 January 2026</div>
+<div class="talk-venue">Pisa, IT — 26–28 January 2026</div>
 <details>
 <summary>Photos</summary>
 <div class="photos-box">
@@ -118,7 +116,7 @@ details[open] summary::after { content: ' ▼'; }
 
 <div class="conf-item">
 <div class="talk-conference"><a href="https://www.mate.polimi.it/events/ALGODEFI25/">Algo-trading &amp; DeFi Conference</a></div>
-<div class="talk-venue">Milan, Italy — 16–17 October 2025</div>
+<div class="talk-venue">Milan, IT — 16–17 October 2025</div>
 <details>
 <summary>Photos</summary>
 <div class="photos-box">
@@ -139,19 +137,15 @@ details[open] summary::after { content: ' ▼'; }
 <div class="conf-item">
 <div class="talk-conference"><a href="https://iccf26.web.ox.ac.uk/">International Conference on Computational Finance</a></div>
 <div class="talk-venue">Oxford, UK — 1-4 September 2026</div>
-<details>
-</details>
 </div>
 
 <div class="conf-item">
 <div class="talk-conference"><a href="https://eventi.unibo.it/bachelier">XIII Bachelier World Congress</a></div>
 <div class="talk-venue">Bologna, IT — 29 June – 3 July 2026</div>
-<details>
-</details>
 </div>
 
 <div class="conf-item">
-<div class="talk-conference">PhD Finance and Accounting Research Day</div>
+<div class="talk-conference"><a href="https://www.bayes.citystgeorges.ac.uk/study/phd/finance">PhD Finance and Accounting Research Day</a></div>
 <div class="talk-venue">Bayes Business School, London, UK — 2 June 2026</div>
 <details>
 <summary>Photos</summary>
@@ -163,7 +157,7 @@ details[open] summary::after { content: ' ▼'; }
 
 <div class="conf-item">
 <div class="talk-conference"><a href="https://sites.google.com/uniupo.it/seminari-ms/home-page">Seminari Matematici Statistici</a></div>
-<div class="talk-venue">Università del Piemonte Orientale, Novara, Italy — 13 April 2026</div>
+<div class="talk-venue">Università del Piemonte Orientale, Novara, IT — 13 April 2026</div>
 <details>
 <summary>Photos</summary>
 <div class="photos-box">
