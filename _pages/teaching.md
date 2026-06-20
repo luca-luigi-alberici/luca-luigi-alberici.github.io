@@ -29,7 +29,7 @@ Qualification for Teaching in UK Higher Education, awarded by Bayes Business Sch
 ---
 ## Teaching
 
-<details>
+<details markdown="1">
 <summary>Financial Econometrics</summary>
 
 **MSc level** — Imperial College Business School *(a.y. 2025–2026)*  
@@ -44,7 +44,7 @@ Graduate Teaching Assistant covering: Introduction to EViews and stock market da
 </details>
 ---
 
-<details>
+<details markdown="1">
 <summary>Data Analytics</summary>
 
 **BSc level** — Bayes Business School *(from September 2026)*  
@@ -54,7 +54,7 @@ Module Leader *(upcoming)*
 
 ---
 
-<details>
+<details markdown="1">
 <summary>Financial and Business Analytics</summary>
 
 **BSc level** — Bayes Business School *(a.y. 2025–2026)*  
@@ -64,7 +64,7 @@ Graduate Teaching Assistant covering: applied econometric techniques for financi
 </details>
 
 ---
-<details>
+<details markdown="1">
 <summary>Applied Business Intelligence</summary>
 
 **BSc level** — Bayes Business School *(a.y. 2025–2026)*  
@@ -74,7 +74,7 @@ Graduate Teaching Assistant covering: introduction to Tableau, building charts a
 </details>
 
 ---
-<details>
+<details markdown="1">
 <summary>Mathematics & Statistics</summary>
 
 **Undergraduate level** — Università del Piemonte Orientale *(a.y. 2025–2026)*
@@ -85,7 +85,7 @@ Graduate Teaching Assistant covering: limits, continuity, and derivatives, integ
 ---
 
 ## Research Projects
-<details>
+<details markdown="1">
 <summary>Perfect Withdrawal Rate (PWR) Analysis</summary>
 Supervised by [Prof. Andrew Clare](https://www.bayes.citystgeorges.ac.uk/faculties-and-research/experts/andrew-clare)
 
