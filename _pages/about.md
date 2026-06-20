@@ -13,6 +13,8 @@ I develop high-dimensional models using Bayesian inference, latent factor struct
 
 I hold a merit-based full-tuition fee waiver at Bayes and previously completed an MSc in Finance, Insurance & Risk Management at [Collegio Carlo Alberto](https://www.carloalberto.org/) (Turin) with a 90% merit scholarship. I graduated with 110/110 *cum laude* from [Università del Piemonte Orientale](https://www.uniupo.it/it) at both BSc and MSc level.
 
+You can contact me at [luca-luigi.alberici@bayes.city.ac.uk](luca-luigi.alberici@bayes.city.ac.uk) or connect with me on [LinkedIn](https://www.linkedin.com/in/luca-luigi-alberici-37820a21b/).
+
 ## Research Interests
 
 Statistical Learning · Machine Learning in Finance · Quantitative Risk Management · Asset Pricing · Decentralised Finance (DeFi) · Option-Implied Information · Bayesian Inference · Latent Factor Models · EM Algorithm
