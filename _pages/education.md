@@ -5,40 +5,18 @@ title: "Education"
 author_profile: true
 ---
 <style>
-.edu-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: 1em;
-  flex-wrap: wrap;
-  margin-top: 1.2em;
-}
-.edu-row:first-of-type { margin-top: 0; }
-.edu-main { font-size: 1em; }
-.edu-date {
-  white-space: nowrap;
-  opacity: 0.6;
-  font-style: italic;
-  font-size: 0.92em;
-}
-details summary {
-  cursor: pointer;
+...
+.edu-section-title {
   color: #52adc8;
   font-weight: bold;
   font-size: 1.1em;
-  list-style: none;
-  user-select: none;
   margin-bottom: 0.6em;
-  display: block;
 }
-details summary::-webkit-details-marker { display: none; }
-details summary::after { content: ' ▶'; }
-details[open] summary::after { content: ' ▼'; }
-details { margin-bottom: 1.5em; }
+.edu-section { margin-bottom: 1.5em; }
 </style>
 
-<details markdown="1">
-<summary>Academic Degrees</summary>
+<div class="edu-section" markdown="1">
+<div class="edu-section-title">Academic Degrees</div>
 
 <div class="edu-row">
   <div class="edu-main"><strong>PhD in Finance</strong> — Bayes Business School, City, University of London</div>
@@ -82,7 +60,7 @@ details { margin-bottom: 1.5em; }
 
 - Final grade: 110/110 *cum laude*
 
-</details>
+</div>
 
 <details markdown="1">
 <summary>PhD Courses &amp; Schools</summary>
