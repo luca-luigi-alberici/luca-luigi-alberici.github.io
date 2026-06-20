@@ -1,62 +1,141 @@
 ---
+layout: single
 permalink: /education/
 title: "Education"
 author_profile: true
 ---
+<style>
+.edu-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1em;
+  flex-wrap: wrap;
+  margin-top: 1.2em;
+}
+.edu-row:first-of-type { margin-top: 0; }
+.edu-main { font-size: 1em; }
+.edu-date {
+  white-space: nowrap;
+  opacity: 0.6;
+  font-style: italic;
+  font-size: 0.92em;
+}
+details summary {
+  cursor: pointer;
+  color: #52adc8;
+  font-weight: bold;
+  font-size: 1.1em;
+  list-style: none;
+  user-select: none;
+  margin-bottom: 0.6em;
+  display: block;
+}
+details summary::-webkit-details-marker { display: none; }
+details summary::after { content: ' ▶'; }
+details[open] summary::after { content: ' ▼'; }
+details { margin-bottom: 1.5em; }
+</style>
 
-## Academic Degrees
+<details markdown="1">
+<summary>Academic Degrees</summary>
 
-**PhD in Finance** — Bayes Business School, City, University of London *(Sept 2025 – Sept 2028)*
+<div class="edu-row">
+  <div class="edu-main"><strong>PhD in Finance</strong> — Bayes Business School, City, University of London</div>
+  <div class="edu-date">09/2025 – 09/2028</div>
+</div>
+
 - Doctor of Philosophy in Finance
 - Full-tuition fee waiver awarded on academic distinction
 - Co-leading the foundation of the PhD Alumni Association
 
-**MPhil in Finance** — Bayes Business School, City, University of London *(Sept 2024 – Sept 2025)*
+<div class="edu-row">
+  <div class="edu-main"><strong>MPhil in Finance</strong> — Bayes Business School, City, University of London</div>
+  <div class="edu-date">09/2024 – 09/2025</div>
+</div>
+
 - Core Modules: Asset Pricing, Financial Econometrics, Banking, Market Microstructure, Machine Learning
 - Full-tuition fee waiver awarded on academic distinction
 
-**MSc in Finance, Insurance & Risk Management** — Collegio Carlo Alberto, Turin *(Sept 2023 – July 2024)*
+<div class="edu-row">
+  <div class="edu-main"><strong>MSc in Finance, Insurance &amp; Risk Management</strong> — Collegio Carlo Alberto, Turin</div>
+  <div class="edu-date">09/2023 – 07/2024</div>
+</div>
+
 - Second Level MSc, specialisation in Quantitative Finance
 - Main courses: Asset Pricing, Asset Allocation, Derivatives, Fixed Income, Machine Learning, Optimisation
 - Merit-based partial tuition fee waiver of 90%
 - Co-leading the foundation of the Master's Alumni Association
 
-**MSc in Management and Finance** — Università del Piemonte Orientale, Novara *(Sept 2021 – Nov 2023)*
+<div class="edu-row">
+  <div class="edu-main"><strong>MSc in Management and Finance</strong> — Università del Piemonte Orientale, Novara</div>
+  <div class="edu-date">09/2021 – 11/2023</div>
+</div>
+
 - Final grade: 110/110 *cum laude* with Academic Mention for the career
 - Student representative
 
-**BSc in Business Administration** — Università del Piemonte Orientale, Novara *(Sept 2018 – July 2021)*
+<div class="edu-row">
+  <div class="edu-main"><strong>BSc in Business Administration</strong> — Università del Piemonte Orientale, Novara</div>
+  <div class="edu-date">09/2018 – 07/2021</div>
+</div>
+
 - Final grade: 110/110 *cum laude*
 
----
+</details>
 
-## PhD Courses & Schools
+<details markdown="1">
+<summary>PhD Courses &amp; Schools</summary>
 
-**Mathematical Models for Quantitative Finance** *(Feb 2026)*
-Market Microstructure, Networks and Systemic Risk — Scuola Normale Superiore, Pisa — Prof. Lillo
+<div class="edu-row">
+  <div class="edu-main"><strong>Mathematical Models for Quantitative Finance</strong> — Market Microstructure, Networks and Systemic Risk — Scuola Normale Superiore, Pisa — Prof. Lillo</div>
+  <div class="edu-date">02/2026</div>
+</div>
 
-**Doctoral Colloquium on Risk Analytics** *(March 2025)*
-Modern risk measurement, NatCat insurance and climate change — Università Ca' Foscari, Venice — Proff. Li Calzi & Corazza
+<div class="edu-row">
+  <div class="edu-main"><strong>Doctoral Colloquium on Risk Analytics</strong> — Modern risk measurement, NatCat insurance and climate change — Università Ca' Foscari, Venice — Proff. Li Calzi &amp; Corazza</div>
+  <div class="edu-date">03/2025</div>
+</div>
 
-**Optimal Stochastic Control Methods in Mathematical Finance** *(Feb 2025)*
-Theory and Applications — Politecnico di Milano — Prof. Marazzina
+<div class="edu-row">
+  <div class="edu-main"><strong>Optimal Stochastic Control Methods in Mathematical Finance</strong> — Theory and Applications — Politecnico di Milano — Prof. Marazzina</div>
+  <div class="edu-date">02/2025</div>
+</div>
 
-**AI Algorithms, Graph Theory, Stochastic Dynamic Optimisation** *(May 2024)*
-Università degli Studi Roma Tre — Prof. Cesarone
+<div class="edu-row">
+  <div class="edu-main"><strong>AI Algorithms, Graph Theory, Stochastic Dynamic Optimisation</strong> — Università degli Studi Roma Tre — Prof. Cesarone</div>
+  <div class="edu-date">05/2024</div>
+</div>
 
----
+</details>
 
-## Exchange & International Experience
+<details markdown="1">
+<summary>Exchange &amp; International Experience</summary>
 
-**Bloomberg Training Program** — Stevens Institute of Technology, Hoboken (US) *(June 2022)*
+<div class="edu-row">
+  <div class="edu-main"><strong>Bloomberg Training Program</strong> — Stevens Institute of Technology, Hoboken (US)</div>
+  <div class="edu-date">06/2022</div>
+</div>
+
 Free mover funded by a scholarship (€1,500)
 
-**Functional Data Analysis** — Universitat Politècnica de Catalunya, Barcelona *(June 2021)*
+<div class="edu-row">
+  <div class="edu-main"><strong>Functional Data Analysis</strong> — Universitat Politècnica de Catalunya, Barcelona</div>
+  <div class="edu-date">06/2021</div>
+</div>
+
 R programming in Functional Data Analysis (Time Series for Stock Market) — Free mover funded by a scholarship
 
----
+</details>
 
-## Online Courses & Certifications
+<details markdown="1">
+<summary>Online Courses &amp; Certifications</summary>
 
-**Machine Learning Specialization** — DeepLearning.AI / Stanford University *(June – Sept 2024)*
+<div class="edu-row">
+  <div class="edu-main"><strong>Machine Learning Specialization</strong> — DeepLearning.AI / Stanford University</div>
+  <div class="edu-date">06/2024 – 09/2024</div>
+</div>
+
 Supervised Machine Learning, Advanced Learning Algorithms, Unsupervised Learning, Recommenders, Reinforcement Learning
+
+</details>
