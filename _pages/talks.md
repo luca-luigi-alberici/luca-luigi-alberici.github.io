@@ -59,6 +59,13 @@ details[open] summary::after { content: ' ▼'; }
 <a class="talk-paper" href="/publications/">Implied Impermanent Loss for Concentrated Liquidity</a>
 
 <div class="conf-item">
+<div class="talk-conference"><a href="https://eventi.unibo.it/bachelier">XIII Bachelier World Congress</a></div>
+<div class="talk-venue">Bologna, IT — 29 June – 3 July 2026</div>
+<details>
+</details>
+</div>
+
+<div class="conf-item">
 <div class="talk-conference"><a href="https://www.qmul.ac.uk/sef/events/conferences/items/8th-qmul-economics-and-finance-workshop-for-phd--post-doctoral-students.html">8th QMUL Economics and Finance Workshop</a></div>
 <div class="talk-venue">London, UK — 21–22 May 2026</div>
 <details>
@@ -128,6 +135,20 @@ details[open] summary::after { content: ' ▼'; }
 
 <div class="paper-group">
 <a class="talk-paper" href="/publications/">Estimation of a Hierarchical Normal-Inverse Gaussian Factor Model via the EM Algorithm</a>
+
+<div class="conf-item">
+<div class="talk-conference"><a href="https://iccf26.web.ox.ac.uk/">International Conference on Computational Finance</a></div>
+<div class="talk-venue">Oxford, UK — 1-4 September 2026</div>
+<details>
+</details>
+</div>
+
+<div class="conf-item">
+<div class="talk-conference"><a href="https://eventi.unibo.it/bachelier">XIII Bachelier World Congress</a></div>
+<div class="talk-venue">Bologna, IT — 29 June – 3 July 2026</div>
+<details>
+</details>
+</div>
 
 <div class="conf-item">
 <div class="talk-conference">PhD Finance and Accounting Research Day</div>
