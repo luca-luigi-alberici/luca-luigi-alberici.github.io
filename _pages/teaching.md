@@ -90,6 +90,19 @@ Graduate Teaching Assistant covering: introduction to Tableau, building charts a
 </details>
 
 ---
+<details markdown="1"> 
+<summary>Pre-Study Mathematics, Statistics and Python</summary> 
+
+**MSc & PhD level** — Bayes Business School *(Summer 2025)*   
+Coordinator: [Dr. Elisabetta Pellini](https://www.bayes.citystgeorges.ac.uk/faculties-and-research/experts/elisabetta-pellini) 
+
+Graduate Teaching Assistant covering: algebra and calculus refresher, linear algebra fundamentals, probability theory and distributions, descriptive and inferential statistics, hypothesis testing, and introduction to Python programming for data analysis. 
+
+*Tools: Python.* 
+
+</details>
+
+---
 <details markdown="1">
 <summary>Mathematics & Statistics</summary>
 

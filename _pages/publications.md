@@ -65,7 +65,7 @@ Providing liquidity on decentralized exchanges earns fees but exposes liquidity 
 </details>
 
 ---
-
+<!--
 **Disciplined Learning: A GenAI Framework for Arbitrage-Free Term Structures** <span class="ssrn-btn">SSRN</span>  
 with [L. Ballotta](https://scholar.google.com/citations?user=rmmGBqMAAAAJ&hl=en) and [G. Fusai](https://scholar.google.com/citations?user=j92IMd0AAAAJ&hl=it)
 
@@ -87,3 +87,4 @@ with [F. Centrone](https://upobook.uniupo.it/francesca.centrone) and [A. Goia](h
 This paper proposes a portfolio optimization framework that incorporates Data Envelopment Analysis (DEA) efficiency scores through an efficiency-based penalization term. The approach provides a flexible mechanism for integrating efficiency information into portfolio construction without directly modifying the underlying asset characteristics. By assigning higher penalties to relatively inefficient assets, the model encourages allocations toward more efficient investments while potentially generating sparse portfolios. Theoretical properties of the framework are examined to characterize the influence of DEA scores on portfolio selection. Illustrative examples highlight the applicability of the proposed approach and its implications for asset allocation.
 </div>
 </details>
+-->

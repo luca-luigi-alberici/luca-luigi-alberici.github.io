@@ -168,3 +168,16 @@ details[open] summary::after { content: ' ▼'; }
 </div>
 
 </div>
+
+
+---
+
+<div class="paper-group">
+<span class="talk-paper">Seminars Organized</span>
+
+<div class="conf-item">
+<div class="talk-conference"><a href="https://bayes.campusgroups.com/faculty/rsvp_boot?id=300118854">Quantitative Model Validation in Structured Credit: Numerical Benchmarks and Challenger Approaches</a></div>
+<div class="talk-venue">Speakers: Giuseppe Bonavolontà &amp; Alper Hekimoglu — Financial Engineering Workshop, Bayes Business School, London, UK — 1 April 2026</div>
+</div>
+
+</div>
