@@ -51,6 +51,28 @@ details[open] summary::after { content: ' ▼'; }
   max-height: 200px;
   object-fit: cover;
 }
+.legends-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 1em;
+}
+.legend-item {
+  width: 160px;
+  text-align: center;
+}
+.legend-item img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.legend-caption {
+  margin-top: 6px;
+  font-size: 0.9em;
+  font-weight: bold;
+  opacity: 0.85;
+}
 </style>
 
 ---
@@ -129,8 +151,6 @@ details[open] summary::after { content: ' ▼'; }
 
 </div>
 
----
-
 <div class="paper-group">
 <a class="talk-paper" href="/publications/">Estimation of a Hierarchical Normal-Inverse Gaussian Factor Model via the EM Algorithm</a>
 
@@ -169,15 +189,53 @@ details[open] summary::after { content: ' ▼'; }
 
 </div>
 
-
----
-
 <div class="paper-group">
 <span class="talk-paper">Seminars Organized</span>
 
 <div class="conf-item">
 <div class="talk-conference"><a href="https://bayes.campusgroups.com/faculty/rsvp_boot?id=300118854">Quantitative Model Validation in Structured Credit: Numerical Benchmarks and Challenger Approaches</a></div>
-<div class="talk-venue">Speakers: Giuseppe Bonavolontà &amp; Alper Hekimoglu — Financial Engineering Workshop, Bayes Business School, London, UK — 1 April 2026</div>
+<div class="talk-venue">Speakers: [Giuseppe Bonavolontà](https://www.linkedin.com/in/giuseppe-bonavolont%C3%A0-8258988b/) &amp; [Alper Hekimoglu](https://www.linkedin.com/in/alper-hekimoglu-frm-phd-45593830/) — Financial Engineering Workshop, Bayes Business School, London, UK — 1 April 2026</div>
+</div>
+</div>
+
+---
+
+<div class="paper-group">
+<span class="talk-paper">Snapshots of Quantitative Finance Legends</span>
+
+<div class="legends-grid">
+  <div class="legend-item">
+    <img src="/images/Albrecher.jpeg" alt="with Hansj&ouml;rg Albrecher">
+    <div class="legend-caption">Hansj&ouml;rg Albrecher</div>
+  </div>
+  <div class="legend-item">
+    <img src="/images/dupire.jpeg" alt="with Bruno Dupire">
+    <div class="legend-caption">Bruno Dupire</div>
+  </div>
+  <div class="legend-item">
+    <img src="/images/gatheral.JPG" alt="with Jim Gatheral">
+    <div class="legend-caption">Jim Gatheral</div>
+  </div>
+  <div class="legend-item">
+    <img src="/images/glasserman.JPG" alt="with Paul Glasserman">
+    <div class="legend-caption">Paul Glasserman</div>
+  </div>
+  <div class="legend-item">
+    <img src="/images/guasoni.JPG" alt="with Paolo Guasoni">
+    <div class="legend-caption">Paolo Guasoni</div>
+  </div>
+  <div class="legend-item">
+    <img src="/images/kou.jpeg" alt="with Steven Kou">
+    <div class="legend-caption">Steven Kou</div>
+  </div>
+  <div class="legend-item">
+    <img src="/images/tankov.jpeg" alt="with Peter Tankov">
+    <div class="legend-caption">Peter Tankov</div>
+  </div>
+  <div class="legend-item">
+    <img src="/images/tebaldi.JPG" alt="with Claudio Tebaldi">
+    <div class="legend-caption">Claudio Tebaldi</div>
+  </div>
 </div>
 
 </div>
