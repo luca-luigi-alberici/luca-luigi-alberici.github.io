@@ -53,7 +53,7 @@ We propose a hierarchical Normal-Inverse Gaussian (NIG) factor model in which a 
 </details>
 
 ---
-
+<!--
 **Implied Impermanent Loss for Concentrated Liquidity** <span class="ssrn-btn">SSRN</span>  
 with [A. Papanicolaou](https://math.sciences.ncsu.edu/people/apapani/) and [L. Schoenleber](https://sites.google.com/view/lorenzo-schoenleber/menu)
 
@@ -65,7 +65,7 @@ Providing liquidity on decentralized exchanges earns fees but exposes liquidity 
 </details>
 
 ---
-<!--
+
 **Disciplined Learning: A GenAI Framework for Arbitrage-Free Term Structures** <span class="ssrn-btn">SSRN</span>  
 with [L. Ballotta](https://scholar.google.com/citations?user=rmmGBqMAAAAJ&hl=en) and [G. Fusai](https://scholar.google.com/citations?user=j92IMd0AAAAJ&hl=it)
 
