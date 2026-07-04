@@ -83,6 +83,14 @@ details[open] summary::after { content: ' ▼'; }
 <div class="conf-item">
 <div class="talk-conference"><a href="https://eventi.unibo.it/bachelier">XIII Bachelier World Congress</a></div>
 <div class="talk-venue">Bachelier Finance Society &amp; University of Bologna, Bologna, IT — 29 June – 3 July 2026</div>
+<details>
+<summary>Photos</summary>
+<div class="photos-box">
+  <img src="/images/conf_bo.jpeg" alt="Durham 2026" style="width:32%;">
+  <img src="/images/conf_durham_2026_2.jpeg" alt="Durham 2026" style="width:32%;">
+  <img src="/images/conf_durham_2026_3.jpeg" alt="Durham 2026" style="width:32%;">
+</div>
+</details>
 </div>
 
 <div class="conf-item">
@@ -220,8 +228,28 @@ details[open] summary::after { content: ' ▼'; }
     <div class="legend-caption">Hansj&ouml;rg Albrecher</div>
   </div>
   <div class="legend-item">
+    <img src="/images/ales.jpeg" alt="with Aleš Černý">
+    <div class="legend-caption">Aleš Černý</div>
+  </div>
+  <div class="legend-item">
+    <img src="/images/dinunno.jpeg" alt="with Di Nunno">
+    <div class="legend-caption">Giulia Di Nunno</div>
+  </div>
+  <div class="legend-item">
     <img src="/images/dupire.jpeg" alt="with Bruno Dupire">
     <div class="legend-caption">Bruno Dupire</div>
+  </div>
+  <div class="legend-item">
+    <img src="/images/nicoleelk.png" alt="with Nicole El Karoui">
+    <div class="legend-caption">Nicole El Karoui</div>
+  </div>
+  <div class="legend-item">
+    <img src="/images/engle.jpeg" alt="with Robert Engle">
+    <div class="legend-caption">Robert Engle</div>
+  </div>
+  <div class="legend-item">
+    <img src="/images/filipovich.jpeg" alt="with Damir Filipović">
+    <div class="legend-caption">Damir Filipović</div>
   </div>
   <div class="legend-item">
     <img src="/images/gatheral.JPG" alt="with Jim Gatheral">
