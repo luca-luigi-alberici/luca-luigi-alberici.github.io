@@ -53,34 +53,36 @@ We propose a hierarchical Normal-Inverse Gaussian (NIG) factor model in which a 
 </details>
 
 ---
-<!--
+
 **Implied Impermanent Loss for Concentrated Liquidity** <span class="ssrn-btn">SSRN</span>  
 with [A. Papanicolaou](https://math.sciences.ncsu.edu/people/apapani/) and [L. Schoenleber](https://sites.google.com/view/lorenzo-schoenleber/menu)
 
+<!--
 <details>
 <summary>Abstract</summary>
 <div class="abstract-box">
 Providing liquidity on decentralized exchanges earns fees but exposes liquidity providers (LPs) to impermanent loss from price movements. With concentrated liquidity, LPs control this risk by choosing how narrowly to deploy capital around the price. Using option prices, we quantify the cost of liquidity provision by developing measures of implied impermanent loss for concentrated liquidity and define the associated impermanent loss risk premium. Empirically, higher expected impermanent loss widens liquidity ranges, while higher risk premia re-center liquidity around the spot price, highlighting opposing effects of risk and compensation.
 </div>
 </details>
+-->
 
 ---
 
 **Disciplined Learning: A GenAI Framework for Arbitrage-Free Term Structures** <span class="ssrn-btn">SSRN</span>  
 with [L. Ballotta](https://scholar.google.com/citations?user=rmmGBqMAAAAJ&hl=en) and [G. Fusai](https://scholar.google.com/citations?user=j92IMd0AAAAJ&hl=it)
-
+<!--
 <details>
 <summary>Abstract</summary>
 <div class="abstract-box">
 Generative artificial intelligence (GenAI) methods are increasingly used to produce synthetic financial market data, but purely statistical generators offer no guarantee that simulated price systems are free of arbitrage. This article proposes a hybrid framework that couples a no-arbitrage term structure model with a generative model in latent factor space. We provide an analytically tractable, invertible, and arbitrage-free mapping between a low-dimensional latent state and the term structure of discount bond prices. Historical market curves are inverted through this mapping to recover a time series of latent states, to which a Bayesian Machine Learning algorithm is fitted via the EM algorithm. The resulting pipeline decouples the statistical realism of the generated data from its no-arbitrage properties, combining the flexibility of GenAI with the structural guarantees of a no-arbitrage pricing model.
 </div>
 </details>
-
+-->
 ---
 
 **Technical Efficiency: A Regularization-Based Framework** <span class="ssrn-btn">SSRN</span>  
 with [F. Centrone](https://upobook.uniupo.it/francesca.centrone) and [A. Goia](https://scholar.google.com/citations?user=qP_hjCcAAAAJ&hl=it)
-
+<!--
 <details>
 <summary>Abstract</summary>
 <div class="abstract-box">
