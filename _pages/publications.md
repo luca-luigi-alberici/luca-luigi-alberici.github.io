@@ -70,6 +70,7 @@ Providing liquidity on decentralized exchanges earns fees but exposes liquidity 
 
 **Disciplined Learning: A GenAI Framework for Arbitrage-Free Term Structures** <span class="ssrn-btn">SSRN</span>  
 with [L. Ballotta](https://scholar.google.com/citations?user=rmmGBqMAAAAJ&hl=en) and [G. Fusai](https://scholar.google.com/citations?user=j92IMd0AAAAJ&hl=it)
+
 <!--
 <details>
 <summary>Abstract</summary>
@@ -78,10 +79,12 @@ Generative artificial intelligence (GenAI) methods are increasingly used to prod
 </div>
 </details>
 -->
+
 ---
 
 **Technical Efficiency: A Regularization-Based Framework** <span class="ssrn-btn">SSRN</span>  
 with [F. Centrone](https://upobook.uniupo.it/francesca.centrone) and [A. Goia](https://scholar.google.com/citations?user=qP_hjCcAAAAJ&hl=it)
+
 <!--
 <details>
 <summary>Abstract</summary>
