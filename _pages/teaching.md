@@ -27,7 +27,7 @@ details { margin-bottom: 1em; }
 Qualification for Teaching in UK Higher Education, awarded by Bayes Business School, City St George's, University of London.
 
 ---
-## Teaching
+## Teaching Modules
 
 <details markdown="1">
 <summary>Financial Econometrics</summary>

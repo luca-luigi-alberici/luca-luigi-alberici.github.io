@@ -1,7 +1,7 @@
 ---
 layout: single
 permalink: /publications/
-title: "Working Papers"
+title: "Publications"
 author_profile: true
 ---
 <style>
@@ -40,6 +40,8 @@ details[open] summary::after { content: ' ▼'; }
 }
 </style>
 
+## Working Papers
+
 ---
 
 **Estimation of a Hierarchical Normal-Inverse Gaussian Factor Model via the EM Algorithm** <span class="ssrn-btn">SSRN</span>  
@@ -67,6 +69,8 @@ Providing liquidity on decentralized exchanges earns fees but exposes liquidity 
 -->
 
 ---
+
+## Work in Progress
 
 **Disciplined Learning: A GenAI Framework for Arbitrage-Free Term Structures** <span class="ssrn-btn">SSRN</span>  
 with [L. Ballotta](https://scholar.google.com/citations?user=rmmGBqMAAAAJ&hl=en) and [G. Fusai](https://scholar.google.com/citations?user=j92IMd0AAAAJ&hl=it)
