@@ -41,6 +41,21 @@ Graduate Teaching Assistant covering: (Multiple) Regression Analysis, OLS Diagno
 
 ---
 
+<details markdown="1">
+<summary>Applied Quantitative Macro Strategies</summary>
+
+**MSc level** — Imperial College Business School *(a.y. 2025–2026)*  
+Module Leaders: [Diego Parrilla](https://www.linkedin.com/in/diego-parrilla-0a2b5530/) & [Anoosh Lachin](https://www.linkedin.com/in/anoosh-lachin-4833373b/)
+
+Graduate Teaching Assistant covering: no-arbitrage FX forward pricing, derivative payoff diagrams (calls, puts, forwards), option premium decomposition and numerical Greeks, options approximations, exotic and basket option valuation, quantitative macro strategy research methods.
+
+*Tools: Python.*
+
+</details>
+
+---
+
+
 **BSc level** — Bayes Business School *(a.y. 2025–2026)*  
 Module Leader: [Dr. Parastoo Mousavi](https://www.bayes.citystgeorges.ac.uk/faculties-and-research/experts/parastoo-mousavi)
 

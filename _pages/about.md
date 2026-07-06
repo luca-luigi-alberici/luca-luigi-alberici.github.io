@@ -21,7 +21,7 @@ Statistical Learning · Machine Learning in Finance · Quantitative Risk Managem
 
 ## News
 
+- **July 2026** — Taking part in [Race for Life in support of Cancer Research UK](https://raceforlife.cancerresearchuk.org/).
 - **June 2026** — Joined the [Institute and Faculty of Actuaries (IFoA)](https://actuaries.org.uk/) as member of the General Insurance – Machine Learning in Reserving Working Party.
 - **June 2026** — Presenting at the XIII Bachelier World Congress (Bologna), QMUL Economics and Finance Workshop (Durham), and 8th Blockchain International Scientific Conference (London).
 - **March 2026** — Awarded Teaching Certificate (Advance Higher Education, UK).
-- **September 2024** — Started PhD in Finance at Bayes Business School.
