@@ -108,7 +108,7 @@ Graduate Teaching Assistant covering: algebra and calculus refresher, linear alg
 
 **Undergraduate level** — Università del Piemonte Orientale *(a.y. 2021–2023)*
 
-Graduate Teaching Assistant covering: limits, continuity, and derivatives, integral calculus and applications, sequences and series, univariate descriptive statistics, probability distributions, bivariate statistics and correlation, statistical inference and hypothesis testing.
+Graduate Teaching Assistant covering: limits, continuity, and derivatives, integral calculus and applications, sequences and series, univariate descriptive statistics, probability distributions, bivariate statistics, statistical inference and hypothesis testing.
 
 *Tools: R.*
 
