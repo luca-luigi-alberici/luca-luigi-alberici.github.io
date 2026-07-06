@@ -41,6 +41,16 @@ Graduate Teaching Assistant covering: (Multiple) Regression Analysis, OLS Diagno
 
 ---
 
+**BSc level** — Bayes Business School *(a.y. 2025–2026)*  
+Module Leader: [Dr. Parastoo Mousavi](https://www.bayes.citystgeorges.ac.uk/faculties-and-research/experts/parastoo-mousavi)
+
+Graduate Teaching Assistant covering: Introduction to EViews and stock market data, computation of (log-)returns and useful descriptive statistics, OLS (multiple) regression, residual diagnostics, CAPM and Factor models estimation, Cross-sectional regression, predictability in financial markets with market indicators.
+
+*Tools: EViews.*
+
+</details>
+---
+
 <details markdown="1">
 <summary>Applied Quantitative Macro Strategies</summary>
 
@@ -55,16 +65,6 @@ Graduate Teaching Assistant covering: no-arbitrage FX forward pricing, derivativ
 
 ---
 
-
-**BSc level** — Bayes Business School *(a.y. 2025–2026)*  
-Module Leader: [Dr. Parastoo Mousavi](https://www.bayes.citystgeorges.ac.uk/faculties-and-research/experts/parastoo-mousavi)
-
-Graduate Teaching Assistant covering: Introduction to EViews and stock market data, computation of (log-)returns and useful descriptive statistics, OLS (multiple) regression, residual diagnostics, CAPM and Factor models estimation, Cross-sectional regression, predictability in financial markets with market indicators.
-
-*Tools: EViews.*
-
-</details>
----
 
 <details markdown="1">
 <summary>Data Analytics</summary>
