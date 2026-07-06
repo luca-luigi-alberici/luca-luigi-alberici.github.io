@@ -196,7 +196,7 @@ details[open] summary::after { content: ' ▼'; }
 </div>
 
 <div class="conf-item">
-<div class="talk-conference"><a href="https://sites.google.com/uniupo.it/seminari-ms/home-page">Finance, Actuarial Science and Management</a></div>
+<div class="talk-conference">Finance, Actuarial Science and Management</div>
 <div class="talk-venue">Bayes Busineess School, London, UK — 19 March 2026</div>
 <details>
 <summary>Photos</summary>
