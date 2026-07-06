@@ -201,8 +201,7 @@ details[open] summary::after { content: ' ▼'; }
 <details>
 <summary>Photos</summary>
 <div class="photos-box">
-  <img src="/images/conf_mathseminar_novara_2026.png" alt="Novara 2026" style="width:49%;">
-  <img src="/images/conf_mathseminar_novara_2026_venue.jpg" alt="Novara venue" style="width:49%;">
+  <img src="/images/fam.jpeg" alt="FAM 2026" style="width:49%;">
 </div>
 </details>
 </div>
