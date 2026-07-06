@@ -41,6 +41,6 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
-.author__urls-wrapper .author__desktop {
-  white-space: nowrap;
+.author__urls-wrapper .author__desktop a {
+  display: inline;
 }
