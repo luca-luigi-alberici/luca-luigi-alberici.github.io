@@ -86,9 +86,9 @@ details[open] summary::after { content: ' ▼'; }
 <details>
 <summary>Photos</summary>
 <div class="photos-box">
-  <img src="/images/conf_bo.jpeg" alt="Durham 2026" style="width:32%;">
-  <img src="/images/conf_durham_2026_2.jpeg" alt="Durham 2026" style="width:32%;">
-  <img src="/images/conf_durham_2026_3.jpeg" alt="Durham 2026" style="width:32%;">
+  <img src="/images/conf_bologna1.jpeg" alt="Bologna 2026" style="width:32%;">
+  <img src="/images/conf_bologna2.jpeg" alt="Bologna 2026" style="width:32%;">
+  <img src="/images/conf_bologna3.jpg" alt="Bologna 2026" style="width:32%;">
 </div>
 </details>
 </div>
@@ -170,6 +170,14 @@ details[open] summary::after { content: ' ▼'; }
 <div class="conf-item">
 <div class="talk-conference"><a href="https://eventi.unibo.it/bachelier">XIII Bachelier World Congress</a></div>
 <div class="talk-venue">Bachelier Finance Society &amp; University of Bologna, Bologna, IT — 29 June – 3 July 2026</div>
+<details>
+<summary>Photos</summary>
+<div class="photos-box">
+  <img src="/images/conf_bologna1.jpeg" alt="Bologna 2026" style="width:32%;">
+  <img src="/images/conf_bologna2.jpeg" alt="Bologna 2026" style="width:32%;">
+  <img src="/images/conf_bologna3.jpg" alt="Bologna 2026" style="width:32%;">
+</div>
+</details>
 </div>
 
 <div class="conf-item">
