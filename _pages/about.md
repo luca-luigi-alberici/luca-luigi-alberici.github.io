@@ -11,8 +11,6 @@ I am a Doctoral Candidate in Finance under the supervision of Professor [L. Ball
 
 I develop high-dimensional models using Bayesian inference, latent factor structures, and EM-based estimation techniques. My current work also investigates liquidity provision risk in decentralised finance and the use of advanced statistical methods for financial decision-making under uncertainty.
 
-I hold a merit-based full-tuition fee waiver at Bayes and previously completed an MSc in Finance, Insurance & Risk Management at [Collegio Carlo Alberto](https://www.carloalberto.org/) (Turin) with a 90% merit scholarship. I graduated with 110/110 *cum laude* from [Università del Piemonte Orientale](https://www.uniupo.it/it) at both BSc and MSc level.
-
 You can contact me at [luca-luigi.alberici@bayes.city.ac.uk](luca-luigi.alberici@bayes.city.ac.uk) or connect with me on [LinkedIn](https://www.linkedin.com/in/luca-luigi-alberici-37820a21b/).
 
 ## Research Interests
