@@ -72,6 +72,8 @@ Graduate Teaching Assistant covering: no-arbitrage FX forward pricing, derivativ
 **BSc level** — Bayes Business School *(from September 2026)*  
 Module Leader *(upcoming)*
 
+Course resources hosted on [Excelling in Excel](https://excelling-in-excel.luca99alberici.workers.dev/), a teaching platform I developed for the module.
+
 *Tools: Excel.*
 
 </details>
@@ -127,6 +129,20 @@ Coordinator: [Prof. Enea G. Bongiorno](https://upobook.uniupo.it/enea.bongiorno)
 Graduate Teaching Assistant covering: limits, continuity, and derivatives, integral calculus and applications, sequences and series, univariate descriptive statistics, probability distributions, bivariate statistics, statistical inference and hypothesis testing.
 
 *Tools: R.*
+
+</details>
+
+---
+
+## Student–Staff Partnership Projects
+
+<details markdown="1">
+
+<summary>Peer-Led Coding Bootcamp — Winner, SSP Grants 2026–27</summary>
+
+**Student–Staff Partnership Grant 2026–27** — City St George's, University of London
+
+Winning proposal — original idea and lead applicant — for a peer-led coding bootcamp, designed to give first- and second-year students hands-on coding support delivered by fellow students, with a sustainable, student-led legacy model. Awarded funding by the [Student–Staff Partnership Grants panel](https://studenthub.citystgeorges.ac.uk/career-development/experience-and-study-opportunities/student-staff-partnership-projects).
 
 </details>
 
