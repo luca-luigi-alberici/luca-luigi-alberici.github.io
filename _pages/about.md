@@ -19,7 +19,9 @@ Statistical Learning · Machine Learning in Finance · Quantitative Risk Managem
 
 ## News
 
+- **September 2026** Presenting at the ICCF 2026 (Oxford).
+- **August 2026** — Winning proposal (original idea and lead applicant) for the Peer-Led Coding Bootcamp, awarded a [Student–Staff Partnership Grant 2026–27](https://studenthub.citystgeorges.ac.uk/career-development/experience-and-study-opportunities/student-staff-partnership-projects).
 - **July 2026** — Taking part in [Race for Life in support of Cancer Research UK](https://raceforlife.cancerresearchuk.org/).
 - **June 2026** — Joined the [Institute and Faculty of Actuaries (IFoA)](https://actuaries.org.uk/) as member of the General Insurance – Machine Learning in Reserving Working Party.
-- **June 2026** — Presenting at the XIII Bachelier World Congress (Bologna), QMUL Economics and Finance Workshop (Durham), and 8th Blockchain International Scientific Conference (London).
+- **June 2026** — Presenting at the XIII Bachelier World Congress (Bologna).
 - **March 2026** — Awarded Teaching Certificate (Advance Higher Education, UK).
