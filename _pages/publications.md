@@ -51,6 +51,8 @@ with [L. Ballotta](https://scholar.google.com/citations?user=rmmGBqMAAAAJ&hl=en)
 <summary>Abstract</summary>
 <div class="abstract-box">
 We propose a hierarchical Normal-Inverse Gaussian (NIG) factor model in which a latent mixing variable drives both the conditional mean and variance of each observation. This mean-variance mixing generalises existing latent-factor specifications — restricted to the variance component only — producing marginal distributions that jointly capture heavy tails, excess kurtosis, and asymmetry. We derive closed-form EM updates for all parameter blocks. Exploiting the NIG structure, the characteristic function of any portfolio return admits a closed form, from which the first four cumulants follow analytically — without estimating high-dimensional co-skewness and co-kurtosis tensors.
+
+*Keywords*: Factor model, Normal-Inverse Gaussian distribution, EM algorithm, latent variables, downside risk.
 </div>
 </details>
 
@@ -58,14 +60,20 @@ We propose a hierarchical Normal-Inverse Gaussian (NIG) factor model in which a 
 <!--
 **Implied Impermanent Loss for Concentrated Liquidity** <span class="ssrn-btn">SSRN</span>  
 with [A. Papanicolaou](https://math.sciences.ncsu.edu/people/apapani/) and [L. Schoenleber](https://sites.google.com/view/lorenzo-schoenleber/menu)
--->
+
 **Implied Impermanent Loss for Concentrated Liquidity** — [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7380038)
+with [A. Papanicolaou](https://math.sciences.ncsu.edu/people/apapani/) and [L. Schoenleber](https://sites.google.com/view/lorenzo-schoenleber/menu)
+-->
+
+**Implied Impermanent Loss for Concentrated Liquidity** <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7380038" class="ssrn-btn" target="_blank" rel="noopener noreferrer">SSRN</a>
 with [A. Papanicolaou](https://math.sciences.ncsu.edu/people/apapani/) and [L. Schoenleber](https://sites.google.com/view/lorenzo-schoenleber/menu)
 <details>
 <summary>Abstract</summary>
 <div class="abstract-box">
 Providing liquidity on decentralized exchanges earns fees but exposes liquidity providers (LPs) to impermanent loss from price movements. With concentrated liquidity, LPs control this risk by choosing how narrowly to deploy capital around the price. Using option prices, we quantify the cost of liquidity provision by developing measures of implied impermanent loss for concentrated liquidity and define the associated impermanent loss risk premium. Empirically, higher expected impermanent loss widens liquidity ranges, while higher risk premia re-center and tighten liquidity around the spot price, highlighting opposing effects of risk and compensation.
+
 *Keywords*: Decentralized Exchanges, Decentralized Finance, Risk-Neutral Pricing, Risk Premium, Staking, Impermanent Loss, Derivatives.
+
 *JEL Classification Codes*: G10, G11, G13, G20.
 </div>
 </details>
