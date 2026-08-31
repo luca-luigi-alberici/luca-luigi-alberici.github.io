@@ -9,7 +9,7 @@ site_theme               : "default"
 title                    : "Luca Luigi Alberici"
 title_separator          : "-"
 name                     : &name "Luca Luigi Alberici"
-description              : &description "PhD Student in Finance | Bayes Business School | Quantitative Finance & Machine Learning"
+description              : &description "PhD Candidate in Finance | Bayes Business School | Quantitative Finance & Machine Learning"
 url                      : https://luca-luigi-alberici.github.io
 baseurl                  : ""
 repository               : "luca-luigi-alberici/luca-luigi-alberici.github.io"
@@ -19,7 +19,7 @@ author:
   avatar           : "luca_logo.png"
   name             : "Luca Luigi Alberici"
   pronouns         :
-  bio              : "Ph.D. Student in Finance"
+  bio              : "Ph.D. Candidate in Finance"
   location         : "London, UK"
   employer         : '<a href="https://www.bayes.city.ac.uk/">Bayes Business School</a>'
   email            : "luca-luigi.alberici@bayes.city.ac.uk"
