@@ -19,6 +19,7 @@ Statistical Learning · Machine Learning in Finance · Quantitative Risk Managem
 
 ## News
 
+- **September 2026** — New working paper, **[Implied Impermanent Loss for Concentrated Liquidity](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7380038)**, with [A. Papanicolaou](https://math.sciences.ncsu.edu/people/apapani/) and [L. Schoenleber](https://sites.google.com/view/lorenzo-schoenleber/menu), now available on SSRN.
 - **September 2026** — Presenting at the ICCF 2026 (Oxford).
 - **August 2026** — Winning proposal (original idea and lead applicant) for the Peer-Led Coding Bootcamp, awarded a [Student–Staff Partnership Grant 2026–27](https://studenthub.citystgeorges.ac.uk/career-development/experience-and-study-opportunities/student-staff-partnership-projects).
 - **July 2026** — Taking part in [Race for Life in support of Cancer Research UK](https://raceforlife.cancerresearchuk.org/).
