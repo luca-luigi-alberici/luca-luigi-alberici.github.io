@@ -274,6 +274,10 @@ details[open] summary::after { content: ' ▼'; }
     <img src="/images/gatheral.JPG" alt="with Jim Gatheral">
     <div class="legend-caption">Jim Gatheral</div>
   </div>
+     <div class="legend-item">
+    <img src="/images/mikegiles.jpeg" alt="with Mike Giles">
+    <div class="legend-caption">Mike Giles</div>
+  </div>
   <div class="legend-item">
     <img src="/images/glasserman.JPG" alt="with Paul Glasserman">
     <div class="legend-caption">Paul Glasserman</div>
@@ -285,6 +289,10 @@ details[open] summary::after { content: ' ▼'; }
   <div class="legend-item">
     <img src="/images/kou.jpeg" alt="with Steven Kou">
     <div class="legend-caption">Steven Kou</div>
+  </div>
+  <div class="legend-item">
+    <img src="/images/mikko.jpeg" alt="with Mikko Pakkanen">
+    <div class="legend-caption">Mikko Pakkanen</div>
   </div>
   <div class="legend-item">
     <img src="/images/tankov.jpeg" alt="with Peter Tankov">
