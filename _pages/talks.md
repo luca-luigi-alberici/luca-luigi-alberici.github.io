@@ -165,6 +165,14 @@ details[open] summary::after { content: ' ▼'; }
 <div class="conf-item">
 <div class="talk-conference"><a href="https://iccf26.web.ox.ac.uk/">International Conference on Computational Finance</a></div>
 <div class="talk-venue">University of Oxford &amp; Oxford Man Institute of Quantitative Finance, Oxford, UK — 1-4 September 2026</div>
+<details>
+<summary>Photos</summary>
+<div class="photos-box">
+  <img src="/images/oxford1.jpeg" alt="Oxford 2026" style="width:32%;">
+  <img src="/images/oxford2.jpeg" alt="Oxford 2026" style="width:32%;">
+  <img src="/images/oxford3.jpeg" alt="Oxford 2026" style="width:32%;">
+</div>
+</details>
 </div>
 
 <div class="conf-item">
@@ -301,6 +309,10 @@ details[open] summary::after { content: ' ▼'; }
   <div class="legend-item">
     <img src="/images/tebaldi.JPG" alt="with Claudio Tebaldi">
     <div class="legend-caption">Claudio Tebaldi</div>
+  </div>
+  <div class="legend-item">
+    <img src="/images/veraartLSE.jpeg" alt="with Luitgard Veraart">
+    <div class="legend-caption">Luitgard Veraart</div>
   </div>
 </div>
 
