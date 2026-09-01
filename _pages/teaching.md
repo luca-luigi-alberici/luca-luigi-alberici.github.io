@@ -64,6 +64,18 @@ Graduate Teaching Assistant covering: no-arbitrage FX forward pricing, derivativ
 </details>
 
 ---
+<details markdown="1">
+<summary>Quantitative and Algorithmic Trading</summary>
+
+**Undergraduate level (Level 6)** — Bayes Business School, City St George's, University of London *(a.y. 2026–2027)*
+
+Graduate Teaching Assistant covering: market microstructure and trading mechanisms, order types and liquidity, quantitative trading model design and evaluation, return forecasting and risk estimation, transaction cost modelling, price discovery and econometric measures of liquidity, algorithmic and high-frequency trading.
+
+*Tools: Python.*
+
+</details>
+
+---
 
 
 <details markdown="1">
