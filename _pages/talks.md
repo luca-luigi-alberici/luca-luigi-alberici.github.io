@@ -295,6 +295,10 @@ details[open] summary::after { content: ' ▼'; }
     <div class="legend-caption">Paolo Guasoni</div>
   </div>
   <div class="legend-item">
+    <img src="/images/kienitz.jpeg" alt="with Joerg Kienitz">
+    <div class="legend-caption">Joerg Kienitz</div>
+  </div>
+  <div class="legend-item">
     <img src="/images/kou.jpeg" alt="with Steven Kou">
     <div class="legend-caption">Steven Kou</div>
   </div>
