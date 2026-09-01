@@ -315,7 +315,7 @@ details[open] summary::after { content: ' ▼'; }
     <div class="legend-caption">Claudio Tebaldi</div>
   </div>
   <div class="legend-item">
-    <img src="/images/veraartLSE.jpeg" alt="with Luitgard Veraart">
+    <img src="/images/veraartLSE.JPG" alt="with Luitgard Veraart">
     <div class="legend-caption">Luitgard Veraart</div>
   </div>
 </div>
