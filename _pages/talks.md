@@ -170,7 +170,7 @@ details[open] summary::after { content: ' ▼'; }
 <div class="photos-box">
   <img src="/images/oxford1.jpeg" alt="Oxford 2026" style="width:32%;">
   <img src="/images/oxford2.jpeg" alt="Oxford 2026" style="width:32%;">
-  <img src="/images/oxford3.jpeg" alt="Oxford 2026" style="width:32%;">
+  <img src="/images/oxford4.jpeg" alt="Oxford 2026" style="width:32%;">
 </div>
 </details>
 </div>
@@ -275,6 +275,10 @@ details[open] summary::after { content: ' ▼'; }
     <div class="legend-caption">Robert Engle</div>
   </div>
   <div class="legend-item">
+    <img src="/images/fang.jpeg" alt="with Fang Fang">
+    <div class="legend-caption">Fang Fang</div>
+  </div>
+  <div class="legend-item">
     <img src="/images/filipovich.jpeg" alt="with Damir Filipović">
     <div class="legend-caption">Damir Filipović</div>
   </div>
@@ -305,6 +309,10 @@ details[open] summary::after { content: ' ▼'; }
   <div class="legend-item">
     <img src="/images/mikko.jpeg" alt="with Mikko Pakkanen">
     <div class="legend-caption">Mikko Pakkanen</div>
+  </div>
+  <div class="legend-item">
+    <img src="/images/oosterlee.jpeg" alt="with Cornelis W. Oosterlee">
+    <div class="legend-caption">Cornelis W. Oosterlee</div>
   </div>
   <div class="legend-item">
     <img src="/images/tankov.jpeg" alt="with Peter Tankov">
