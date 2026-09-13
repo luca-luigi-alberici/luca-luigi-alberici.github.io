@@ -238,6 +238,126 @@ author_profile: true
 
 
 <!-- =======================================================
+     HIERARCHICAL NIG FACTOR MODEL
+     ======================================================= -->
+
+<details class="paper-details">
+
+<summary>
+  Estimation of a Hierarchical Normal-Inverse Gaussian Factor Model via the EM Algorithm
+</summary>
+
+<div class="conf-item">
+  <div class="talk-conference">
+    <a href="https://iccf26.web.ox.ac.uk/">
+      International Conference on Computational Finance
+    </a>
+  </div>
+
+  <div class="talk-venue">
+    University of Oxford &amp; Oxford Man Institute of Quantitative Finance, Oxford, UK — 1–4 September 2026
+  </div>
+
+  <details class="photo-details">
+    <summary>Photos</summary>
+
+    <div class="photos-box">
+      <img src="/images/oxford1.jpeg" alt="Oxford 2026" style="width:32%;">
+      <img src="/images/oxford2.jpeg" alt="Oxford 2026" style="width:32%;">
+      <img src="/images/oxford4.jpeg" alt="Oxford 2026" style="width:32%;">
+    </div>
+  </details>
+</div>
+
+
+<div class="conf-item">
+  <div class="talk-conference">
+    <a href="https://eventi.unibo.it/bachelier">
+      XIII Bachelier World Congress
+    </a>
+  </div>
+
+  <div class="talk-venue">
+    Bachelier Finance Society &amp; University of Bologna, Bologna, IT — 29 June – 3 July 2026
+  </div>
+
+  <details class="photo-details">
+    <summary>Photos</summary>
+
+    <div class="photos-box">
+      <img src="/images/conf_bologna1.jpeg" alt="Bologna 2026" style="width:32%;">
+      <img src="/images/conf_bologna2.jpeg" alt="Bologna 2026" style="width:32%;">
+      <img src="/images/conf_bologna3.jpg" alt="Bologna 2026" style="width:32%;">
+    </div>
+  </details>
+</div>
+
+
+<div class="conf-item">
+  <div class="talk-conference">
+    <a href="https://www.bayes.citystgeorges.ac.uk/study/phd/finance">
+      PhD Finance and Accounting Research Day
+    </a>
+  </div>
+
+  <div class="talk-venue">
+    Bayes Business School, London, UK — 2 June 2026
+  </div>
+
+  <details class="photo-details">
+    <summary>Photos</summary>
+
+    <div class="photos-box">
+      <img src="/images/conf_phd_research_day_2026.png" alt="PhD Research Day 2026" style="width:60%;">
+    </div>
+  </details>
+</div>
+
+
+<div class="conf-item">
+  <div class="talk-conference">
+    <a href="https://sites.google.com/uniupo.it/seminari-ms/home-page">
+      Seminari Matematici Statistici
+    </a>
+  </div>
+
+  <div class="talk-venue">
+    Università del Piemonte Orientale, Novara, IT — 13 April 2026
+  </div>
+
+  <details class="photo-details">
+    <summary>Photos</summary>
+
+    <div class="photos-box">
+      <img src="/images/conf_mathseminar_novara_2026.png" alt="Novara 2026" style="width:49%;">
+      <img src="/images/conf_mathseminar_novara_2026_venue.jpg" alt="Novara venue" style="width:49%;">
+    </div>
+  </details>
+</div>
+
+
+<div class="conf-item">
+  <div class="talk-conference">
+    Finance, Actuarial Science and Management
+  </div>
+
+  <div class="talk-venue">
+    Bayes Business School, London, UK — 19 March 2026
+  </div>
+
+  <details class="photo-details">
+    <summary>Photos</summary>
+
+    <div class="photos-box">
+      <img src="/images/fam.jpeg" alt="FAM 2026" style="width:49%;">
+    </div>
+  </details>
+</div>
+
+</details>
+
+
+<!-- =======================================================
      IMPLIED IMPERMANENT LOSS
      ======================================================= -->
 
@@ -379,126 +499,6 @@ author_profile: true
       <img src="/images/conf_algodefi_milan_2025_1.jpeg" alt="Milan 2025" style="width:32%;">
       <img src="/images/conf_algodefi_milan_2025_2.jpeg" alt="Milan 2025" style="width:32%;">
       <img src="/images/conf_algodefi_milan_2025_3.jpeg" alt="Milan 2025" style="width:32%;">
-    </div>
-  </details>
-</div>
-
-</details>
-
-
-<!-- =======================================================
-     HIERARCHICAL NIG FACTOR MODEL
-     ======================================================= -->
-
-<details class="paper-details" open>
-
-<summary>
-  Estimation of a Hierarchical Normal-Inverse Gaussian Factor Model via the EM Algorithm
-</summary>
-
-<div class="conf-item">
-  <div class="talk-conference">
-    <a href="https://iccf26.web.ox.ac.uk/">
-      International Conference on Computational Finance
-    </a>
-  </div>
-
-  <div class="talk-venue">
-    University of Oxford &amp; Oxford Man Institute of Quantitative Finance, Oxford, UK — 1–4 September 2026
-  </div>
-
-  <details class="photo-details">
-    <summary>Photos</summary>
-
-    <div class="photos-box">
-      <img src="/images/oxford1.jpeg" alt="Oxford 2026" style="width:32%;">
-      <img src="/images/oxford2.jpeg" alt="Oxford 2026" style="width:32%;">
-      <img src="/images/oxford4.jpeg" alt="Oxford 2026" style="width:32%;">
-    </div>
-  </details>
-</div>
-
-
-<div class="conf-item">
-  <div class="talk-conference">
-    <a href="https://eventi.unibo.it/bachelier">
-      XIII Bachelier World Congress
-    </a>
-  </div>
-
-  <div class="talk-venue">
-    Bachelier Finance Society &amp; University of Bologna, Bologna, IT — 29 June – 3 July 2026
-  </div>
-
-  <details class="photo-details">
-    <summary>Photos</summary>
-
-    <div class="photos-box">
-      <img src="/images/conf_bologna1.jpeg" alt="Bologna 2026" style="width:32%;">
-      <img src="/images/conf_bologna2.jpeg" alt="Bologna 2026" style="width:32%;">
-      <img src="/images/conf_bologna3.jpg" alt="Bologna 2026" style="width:32%;">
-    </div>
-  </details>
-</div>
-
-
-<div class="conf-item">
-  <div class="talk-conference">
-    <a href="https://www.bayes.citystgeorges.ac.uk/study/phd/finance">
-      PhD Finance and Accounting Research Day
-    </a>
-  </div>
-
-  <div class="talk-venue">
-    Bayes Business School, London, UK — 2 June 2026
-  </div>
-
-  <details class="photo-details">
-    <summary>Photos</summary>
-
-    <div class="photos-box">
-      <img src="/images/conf_phd_research_day_2026.png" alt="PhD Research Day 2026" style="width:60%;">
-    </div>
-  </details>
-</div>
-
-
-<div class="conf-item">
-  <div class="talk-conference">
-    <a href="https://sites.google.com/uniupo.it/seminari-ms/home-page">
-      Seminari Matematici Statistici
-    </a>
-  </div>
-
-  <div class="talk-venue">
-    Università del Piemonte Orientale, Novara, IT — 13 April 2026
-  </div>
-
-  <details class="photo-details">
-    <summary>Photos</summary>
-
-    <div class="photos-box">
-      <img src="/images/conf_mathseminar_novara_2026.png" alt="Novara 2026" style="width:49%;">
-      <img src="/images/conf_mathseminar_novara_2026_venue.jpg" alt="Novara venue" style="width:49%;">
-    </div>
-  </details>
-</div>
-
-
-<div class="conf-item">
-  <div class="talk-conference">
-    Finance, Actuarial Science and Management
-  </div>
-
-  <div class="talk-venue">
-    Bayes Business School, London, UK — 19 March 2026
-  </div>
-
-  <details class="photo-details">
-    <summary>Photos</summary>
-
-    <div class="photos-box">
-      <img src="/images/fam.jpeg" alt="FAM 2026" style="width:49%;">
     </div>
   </details>
 </div>
