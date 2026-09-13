@@ -342,13 +342,12 @@ layout: single
 permalink: /talks/
 title: "Talks and Presentations"
 author_profile: true
-
 ---
 
 <style>
 
 /* =========================================================
-   PAPER / TALK GROUPS
+   GENERAL PAPER GROUPS
    ========================================================= */
 
 .paper-group {
@@ -359,38 +358,6 @@ author_profile: true
 
 .paper-group:last-child {
   border-bottom: none;
-}
-
-
-/* =========================================================
-   COLLAPSIBLE PAPER TITLES
-   ========================================================= */
-
-details.paper-group {
-  margin-top: 0;
-}
-
-.paper-summary {
-  cursor: pointer;
-  list-style: none;
-  user-select: none;
-  margin-bottom: 0.8em;
-  line-height: 1.4;
-}
-
-.paper-summary::-webkit-details-marker {
-  display: none;
-}
-
-.paper-summary::after {
-  content: ' ▶';
-  color: #52adc8;
-  font-size: 0.78em;
-  margin-left: 5px;
-}
-
-details.paper-group[open] > .paper-summary::after {
-  content: ' ▼';
 }
 
 .talk-paper {
@@ -406,11 +373,46 @@ details.paper-group[open] > .paper-summary::after {
 
 
 /* =========================================================
+   COLLAPSIBLE PAPERS
+   ========================================================= */
+
+.paper-details {
+  margin-bottom: 2.2em;
+  padding-bottom: 1.8em;
+  border-bottom: 1px solid rgba(128,128,128,0.25);
+}
+
+.paper-details > summary {
+  cursor: pointer;
+  list-style: none;
+  user-select: none;
+  color: #52adc8;
+  font-size: 1.05em;
+  font-weight: bold;
+  line-height: 1.45;
+}
+
+.paper-details > summary::-webkit-details-marker {
+  display: none;
+}
+
+.paper-details > summary::after {
+  content: " ▶";
+  font-size: 0.78em;
+  margin-left: 4px;
+}
+
+.paper-details[open] > summary::after {
+  content: " ▼";
+}
+
+
+/* =========================================================
    CONFERENCES
    ========================================================= */
 
 .conf-item {
-  margin-top: 0.9em;
+  margin-top: 0.8em;
   margin-left: 1em;
 }
 
@@ -430,19 +432,18 @@ details.paper-group[open] > .paper-summary::after {
   font-style: italic;
   opacity: 0.65;
   font-size: 0.95em;
-  margin-top: 0.1em;
 }
 
 
 /* =========================================================
-   PHOTOS WITHIN CONFERENCES
+   PHOTOS WITHIN EACH CONFERENCE
    ========================================================= */
 
-.conf-item details {
+.photo-details {
   margin-top: 0.4em;
 }
 
-.conf-item details summary {
+.photo-details > summary {
   cursor: pointer;
   color: #52adc8;
   font-weight: bold;
@@ -451,23 +452,23 @@ details.paper-group[open] > .paper-summary::after {
   user-select: none;
 }
 
-.conf-item details summary::-webkit-details-marker {
+.photo-details > summary::-webkit-details-marker {
   display: none;
 }
 
-.conf-item details summary::after {
-  content: ' ▶';
+.photo-details > summary::after {
+  content: " ▶";
 }
 
-.conf-item details[open] summary::after {
-  content: ' ▼';
+.photo-details[open] > summary::after {
+  content: " ▼";
 }
 
 .photos-box {
   display: flex;
   gap: 8px;
   flex-wrap: wrap;
-  margin-top: 0.6em;
+  margin-top: 0.5em;
 }
 
 .photos-box img {
@@ -481,31 +482,23 @@ details.paper-group[open] > .paper-summary::after {
    SNAPSHOTS
    ========================================================= */
 
-.snapshots-title {
-  font-size: 1.05em;
-  font-weight: bold;
-  color: #52adc8;
-}
-
 .legends-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(145px, 1fr));
-  gap: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
   margin-top: 1em;
 }
 
 .legend-item {
+  width: 160px;
   text-align: center;
 }
 
 .legend-item img {
-  width: 100%;
-  max-width: 170px;
-  aspect-ratio: 1 / 1;
+  width: 160px;
+  height: 160px;
   object-fit: cover;
   border-radius: 8px;
-  display: block;
-  margin: 0 auto;
 }
 
 .legend-caption {
@@ -517,21 +510,20 @@ details.paper-group[open] > .paper-summary::after {
 
 
 /* =========================================================
-   SHOW ALL SNAPSHOTS
+   SHOW / HIDE EXTRA SNAPSHOTS
    ========================================================= */
 
 .snapshots-details {
-  margin-top: 1.2em;
+  margin-top: 1em;
 }
 
 .snapshots-details > summary {
   cursor: pointer;
   color: #52adc8;
   font-weight: bold;
-  font-size: 0.92em;
+  font-size: 0.9em;
   list-style: none;
   user-select: none;
-  display: inline-block;
 }
 
 .snapshots-details > summary::-webkit-details-marker {
@@ -558,7 +550,7 @@ details.paper-group[open] > .paper-summary::after {
 @media (max-width: 600px) {
 
   .conf-item {
-    margin-left: 0.4em;
+    margin-left: 0.3em;
   }
 
   .photos-box img {
@@ -566,13 +558,14 @@ details.paper-group[open] > .paper-summary::after {
     max-height: none;
   }
 
-  .legends-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 14px;
+  .legend-item {
+    width: calc(50% - 7px);
   }
 
   .legend-item img {
-    max-width: 100%;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
   }
 }
 
@@ -583,17 +576,13 @@ details.paper-group[open] > .paper-summary::after {
      IMPLIED IMPERMANENT LOSS
      ======================================================= -->
 
-<details class="paper-group" open>
+<details class="paper-details" open>
 
-<summary class="paper-summary">
-  <a class="talk-paper" href="/publications/">
-    Implied Impermanent Loss for Concentrated Liquidity
-  </a>
+<summary>
+  Implied Impermanent Loss for Concentrated Liquidity
 </summary>
 
-
 <div class="conf-item">
-
   <div class="talk-conference">
     <a href="https://eventi.unibo.it/bachelier">
       XIII Bachelier World Congress
@@ -604,30 +593,19 @@ details.paper-group[open] > .paper-summary::after {
     Bachelier Finance Society &amp; University of Bologna, Bologna, IT — 29 June – 3 July 2026
   </div>
 
-  <details>
+  <details class="photo-details">
     <summary>Photos</summary>
 
     <div class="photos-box">
-      <img src="/images/conf_bologna1.jpeg"
-           alt="Bologna 2026"
-           style="width:32%;">
-
-      <img src="/images/conf_bologna2.jpeg"
-           alt="Bologna 2026"
-           style="width:32%;">
-
-      <img src="/images/conf_bologna3.jpg"
-           alt="Bologna 2026"
-           style="width:32%;">
+      <img src="/images/conf_bologna1.jpeg" alt="Bologna 2026" style="width:32%;">
+      <img src="/images/conf_bologna2.jpeg" alt="Bologna 2026" style="width:32%;">
+      <img src="/images/conf_bologna3.jpg" alt="Bologna 2026" style="width:32%;">
     </div>
-
   </details>
-
 </div>
 
 
 <div class="conf-item">
-
   <div class="talk-conference">
     <a href="https://www.qmul.ac.uk/sef/events/conferences/items/8th-qmul-economics-and-finance-workshop-for-phd--post-doctoral-students.html">
       8th QMUL Economics and Finance Workshop
@@ -638,26 +616,18 @@ details.paper-group[open] > .paper-summary::after {
     Queen Mary University of London, London, UK — 21–22 May 2026
   </div>
 
-  <details>
+  <details class="photo-details">
     <summary>Photos</summary>
 
     <div class="photos-box">
-      <img src="/images/conf_qmul_2026_1.jpeg"
-           alt="QMUL 2026"
-           style="width:49%;">
-
-      <img src="/images/conf_qmul_2026_2.jpeg"
-           alt="QMUL 2026"
-           style="width:49%;">
+      <img src="/images/conf_qmul_2026_1.jpeg" alt="QMUL 2026" style="width:49%;">
+      <img src="/images/conf_qmul_2026_2.jpeg" alt="QMUL 2026" style="width:49%;">
     </div>
-
   </details>
-
 </div>
 
 
 <div class="conf-item">
-
   <div class="talk-conference">
     <a href="https://www.durham.ac.uk/business/news-and-events/events/2026/05/qrfe-quant-finance-workshop/">
       3rd QRFE Workshop on Quantitative Finance
@@ -668,30 +638,19 @@ details.paper-group[open] > .paper-summary::after {
     Durham University Business School, Durham, UK — 6 May 2026
   </div>
 
-  <details>
+  <details class="photo-details">
     <summary>Photos</summary>
 
     <div class="photos-box">
-      <img src="/images/conf_durham_2026_1.jpeg"
-           alt="Durham 2026"
-           style="width:32%;">
-
-      <img src="/images/conf_durham_2026_2.jpeg"
-           alt="Durham 2026"
-           style="width:32%;">
-
-      <img src="/images/conf_durham_2026_3.jpeg"
-           alt="Durham 2026"
-           style="width:32%;">
+      <img src="/images/conf_durham_2026_1.jpeg" alt="Durham 2026" style="width:32%;">
+      <img src="/images/conf_durham_2026_2.jpeg" alt="Durham 2026" style="width:32%;">
+      <img src="/images/conf_durham_2026_3.jpeg" alt="Durham 2026" style="width:32%;">
     </div>
-
   </details>
-
 </div>
 
 
 <div class="conf-item">
-
   <div class="talk-conference">
     <a href="https://britishblockchainassociation.org/isc2026/">
       8th Blockchain International Scientific Conference (ISC2026)
@@ -702,30 +661,19 @@ details.paper-group[open] > .paper-summary::after {
     British Blockchain Association, London, UK — 27 March 2026
   </div>
 
-  <details>
+  <details class="photo-details">
     <summary>Photos</summary>
 
     <div class="photos-box">
-      <img src="/images/conf_isc_london_2026_1.jpeg"
-           alt="ISC London 2026"
-           style="width:32%;">
-
-      <img src="/images/conf_isc_london_2026_2.jpeg"
-           alt="ISC London 2026"
-           style="width:32%;">
-
-      <img src="/images/conf_isc_london_2026_3.jpeg"
-           alt="ISC London 2026"
-           style="width:32%;">
+      <img src="/images/conf_isc_london_2026_1.jpeg" alt="ISC London 2026" style="width:32%;">
+      <img src="/images/conf_isc_london_2026_2.jpeg" alt="ISC London 2026" style="width:32%;">
+      <img src="/images/conf_isc_london_2026_3.jpeg" alt="ISC London 2026" style="width:32%;">
     </div>
-
   </details>
-
 </div>
 
 
 <div class="conf-item">
-
   <div class="talk-conference">
     <a href="https://www.sns.it/it/evento/defi-crypto">
       Decentralized Finance &amp; Crypto Workshop, Scuola Normale Superiore
@@ -736,30 +684,19 @@ details.paper-group[open] > .paper-summary::after {
     Scuola Normale Superiore, Pisa, IT — 26–28 January 2026
   </div>
 
-  <details>
+  <details class="photo-details">
     <summary>Photos</summary>
 
     <div class="photos-box">
-      <img src="/images/conf_defi_pisa_2026_1.jpeg"
-           alt="Pisa 2026"
-           style="width:32%;">
-
-      <img src="/images/conf_defi_pisa_2026_2.jpeg"
-           alt="Pisa 2026"
-           style="width:32%;">
-
-      <img src="/images/conf_defi_pisa_2026_3.jpeg"
-           alt="Pisa 2026"
-           style="width:32%;">
+      <img src="/images/conf_defi_pisa_2026_1.jpeg" alt="Pisa 2026" style="width:32%;">
+      <img src="/images/conf_defi_pisa_2026_2.jpeg" alt="Pisa 2026" style="width:32%;">
+      <img src="/images/conf_defi_pisa_2026_3.jpeg" alt="Pisa 2026" style="width:32%;">
     </div>
-
   </details>
-
 </div>
 
 
 <div class="conf-item">
-
   <div class="talk-conference">
     <a href="https://www.mate.polimi.it/events/ALGODEFI25/">
       Algo-trading &amp; DeFi Conference
@@ -770,25 +707,15 @@ details.paper-group[open] > .paper-summary::after {
     Politecnico di Milano, Milan, IT — 16–17 October 2025
   </div>
 
-  <details>
+  <details class="photo-details">
     <summary>Photos</summary>
 
     <div class="photos-box">
-      <img src="/images/conf_algodefi_milan_2025_1.jpeg"
-           alt="Milan 2025"
-           style="width:32%;">
-
-      <img src="/images/conf_algodefi_milan_2025_2.jpeg"
-           alt="Milan 2025"
-           style="width:32%;">
-
-      <img src="/images/conf_algodefi_milan_2025_3.jpeg"
-           alt="Milan 2025"
-           style="width:32%;">
+      <img src="/images/conf_algodefi_milan_2025_1.jpeg" alt="Milan 2025" style="width:32%;">
+      <img src="/images/conf_algodefi_milan_2025_2.jpeg" alt="Milan 2025" style="width:32%;">
+      <img src="/images/conf_algodefi_milan_2025_3.jpeg" alt="Milan 2025" style="width:32%;">
     </div>
-
   </details>
-
 </div>
 
 </details>
@@ -798,17 +725,13 @@ details.paper-group[open] > .paper-summary::after {
      HIERARCHICAL NIG FACTOR MODEL
      ======================================================= -->
 
-<details class="paper-group" open>
+<details class="paper-details" open>
 
-<summary class="paper-summary">
-  <a class="talk-paper" href="/publications/">
-    Estimation of a Hierarchical Normal-Inverse Gaussian Factor Model via the EM Algorithm
-  </a>
+<summary>
+  Estimation of a Hierarchical Normal-Inverse Gaussian Factor Model via the EM Algorithm
 </summary>
 
-
 <div class="conf-item">
-
   <div class="talk-conference">
     <a href="https://iccf26.web.ox.ac.uk/">
       International Conference on Computational Finance
@@ -819,30 +742,19 @@ details.paper-group[open] > .paper-summary::after {
     University of Oxford &amp; Oxford Man Institute of Quantitative Finance, Oxford, UK — 1–4 September 2026
   </div>
 
-  <details>
+  <details class="photo-details">
     <summary>Photos</summary>
 
     <div class="photos-box">
-      <img src="/images/oxford1.jpeg"
-           alt="Oxford 2026"
-           style="width:32%;">
-
-      <img src="/images/oxford2.jpeg"
-           alt="Oxford 2026"
-           style="width:32%;">
-
-      <img src="/images/oxford4.jpeg"
-           alt="Oxford 2026"
-           style="width:32%;">
+      <img src="/images/oxford1.jpeg" alt="Oxford 2026" style="width:32%;">
+      <img src="/images/oxford2.jpeg" alt="Oxford 2026" style="width:32%;">
+      <img src="/images/oxford4.jpeg" alt="Oxford 2026" style="width:32%;">
     </div>
-
   </details>
-
 </div>
 
 
 <div class="conf-item">
-
   <div class="talk-conference">
     <a href="https://eventi.unibo.it/bachelier">
       XIII Bachelier World Congress
@@ -853,30 +765,19 @@ details.paper-group[open] > .paper-summary::after {
     Bachelier Finance Society &amp; University of Bologna, Bologna, IT — 29 June – 3 July 2026
   </div>
 
-  <details>
+  <details class="photo-details">
     <summary>Photos</summary>
 
     <div class="photos-box">
-      <img src="/images/conf_bologna1.jpeg"
-           alt="Bologna 2026"
-           style="width:32%;">
-
-      <img src="/images/conf_bologna2.jpeg"
-           alt="Bologna 2026"
-           style="width:32%;">
-
-      <img src="/images/conf_bologna3.jpg"
-           alt="Bologna 2026"
-           style="width:32%;">
+      <img src="/images/conf_bologna1.jpeg" alt="Bologna 2026" style="width:32%;">
+      <img src="/images/conf_bologna2.jpeg" alt="Bologna 2026" style="width:32%;">
+      <img src="/images/conf_bologna3.jpg" alt="Bologna 2026" style="width:32%;">
     </div>
-
   </details>
-
 </div>
 
 
 <div class="conf-item">
-
   <div class="talk-conference">
     <a href="https://www.bayes.citystgeorges.ac.uk/study/phd/finance">
       PhD Finance and Accounting Research Day
@@ -887,22 +788,17 @@ details.paper-group[open] > .paper-summary::after {
     Bayes Business School, London, UK — 2 June 2026
   </div>
 
-  <details>
+  <details class="photo-details">
     <summary>Photos</summary>
 
     <div class="photos-box">
-      <img src="/images/conf_phd_research_day_2026.png"
-           alt="PhD Research Day 2026"
-           style="width:60%;">
+      <img src="/images/conf_phd_research_day_2026.png" alt="PhD Research Day 2026" style="width:60%;">
     </div>
-
   </details>
-
 </div>
 
 
 <div class="conf-item">
-
   <div class="talk-conference">
     <a href="https://sites.google.com/uniupo.it/seminari-ms/home-page">
       Seminari Matematici Statistici
@@ -913,26 +809,18 @@ details.paper-group[open] > .paper-summary::after {
     Università del Piemonte Orientale, Novara, IT — 13 April 2026
   </div>
 
-  <details>
+  <details class="photo-details">
     <summary>Photos</summary>
 
     <div class="photos-box">
-      <img src="/images/conf_mathseminar_novara_2026.png"
-           alt="Novara 2026"
-           style="width:49%;">
-
-      <img src="/images/conf_mathseminar_novara_2026_venue.jpg"
-           alt="Novara venue"
-           style="width:49%;">
+      <img src="/images/conf_mathseminar_novara_2026.png" alt="Novara 2026" style="width:49%;">
+      <img src="/images/conf_mathseminar_novara_2026_venue.jpg" alt="Novara venue" style="width:49%;">
     </div>
-
   </details>
-
 </div>
 
 
 <div class="conf-item">
-
   <div class="talk-conference">
     Finance, Actuarial Science and Management
   </div>
@@ -941,17 +829,13 @@ details.paper-group[open] > .paper-summary::after {
     Bayes Business School, London, UK — 19 March 2026
   </div>
 
-  <details>
+  <details class="photo-details">
     <summary>Photos</summary>
 
     <div class="photos-box">
-      <img src="/images/fam.jpeg"
-           alt="FAM 2026"
-           style="width:49%;">
+      <img src="/images/fam.jpeg" alt="FAM 2026" style="width:49%;">
     </div>
-
   </details>
-
 </div>
 
 </details>
@@ -976,7 +860,6 @@ details.paper-group[open] > .paper-summary::after {
     </div>
 
     <div class="talk-venue">
-
       Speakers:
 
       <a href="https://www.linkedin.com/in/giuseppe-bonavolont%C3%A0-8258988b/"
@@ -994,7 +877,6 @@ details.paper-group[open] > .paper-summary::after {
       </a>
 
       — Financial Engineering Workshop, Bayes Business School, London, UK — 1 April 2026
-
     </div>
 
   </div>
@@ -1003,12 +885,12 @@ details.paper-group[open] > .paper-summary::after {
 
 
 <!-- =======================================================
-     SNAPSHOTS OF QUANTITATIVE FINANCE LEGENDS
+     SNAPSHOTS
      ======================================================= -->
 
 <div class="paper-group">
 
-<span class="snapshots-title">
+<span class="talk-paper">
   Snapshots of Quantitative Finance Legends
 </span>
 
@@ -1018,204 +900,117 @@ details.paper-group[open] > .paper-summary::after {
 <div class="legends-grid">
 
   <div class="legend-item">
-    <img src="/images/Albrecher.jpeg"
-         alt="with Hansjörg Albrecher">
-    <div class="legend-caption">
-      Hansjörg Albrecher
-    </div>
+    <img src="/images/Albrecher.jpeg" alt="with Hansjörg Albrecher">
+    <div class="legend-caption">Hansjörg Albrecher</div>
   </div>
 
-
   <div class="legend-item">
-    <img src="/images/ales.jpeg"
-         alt="with Aleš Černý">
-    <div class="legend-caption">
-      Aleš Černý
-    </div>
+    <img src="/images/ales.jpeg" alt="with Aleš Černý">
+    <div class="legend-caption">Aleš Černý</div>
   </div>
 
-
   <div class="legend-item">
-    <img src="/images/dinunno.jpeg"
-         alt="with Giulia Di Nunno">
-    <div class="legend-caption">
-      Giulia Di Nunno
-    </div>
+    <img src="/images/dinunno.jpeg" alt="with Giulia Di Nunno">
+    <div class="legend-caption">Giulia Di Nunno</div>
   </div>
 
-
   <div class="legend-item">
-    <img src="/images/dupire.jpeg"
-         alt="with Bruno Dupire">
-    <div class="legend-caption">
-      Bruno Dupire
-    </div>
+    <img src="/images/dupire.jpeg" alt="with Bruno Dupire">
+    <div class="legend-caption">Bruno Dupire</div>
   </div>
 
 </div>
 
 
-<!-- ALL THE OTHER SNAPSHOTS -->
+<!-- REMAINING SNAPSHOTS -->
 
 <details class="snapshots-details">
 
   <summary>
-    <span class="show-more">
-      View all snapshots (20) ▼
-    </span>
-
-    <span class="show-less">
-      Show fewer ▲
-    </span>
+    <span class="show-more">View all snapshots (20) ▼</span>
+    <span class="show-less">Show fewer ▲</span>
   </summary>
-
 
   <div class="legends-grid">
 
-
     <div class="legend-item">
-      <img src="/images/nicoleelk.png"
-           alt="with Nicole El Karoui">
-      <div class="legend-caption">
-        Nicole El Karoui
-      </div>
+      <img src="/images/nicoleelk.png" alt="with Nicole El Karoui">
+      <div class="legend-caption">Nicole El Karoui</div>
     </div>
 
-
     <div class="legend-item">
-      <img src="/images/engle.jpeg"
-           alt="with Robert Engle">
-      <div class="legend-caption">
-        Robert Engle
-      </div>
+      <img src="/images/engle.jpeg" alt="with Robert Engle">
+      <div class="legend-caption">Robert Engle</div>
     </div>
 
-
     <div class="legend-item">
-      <img src="/images/fang.jpeg"
-           alt="with Fang Fang">
-      <div class="legend-caption">
-        Fang Fang
-      </div>
+      <img src="/images/fang.jpeg" alt="with Fang Fang">
+      <div class="legend-caption">Fang Fang</div>
     </div>
 
-
     <div class="legend-item">
-      <img src="/images/filipovich.jpeg"
-           alt="with Damir Filipović">
-      <div class="legend-caption">
-        Damir Filipović
-      </div>
+      <img src="/images/filipovich.jpeg" alt="with Damir Filipović">
+      <div class="legend-caption">Damir Filipović</div>
     </div>
 
-
     <div class="legend-item">
-      <img src="/images/gatheral.JPG"
-           alt="with Jim Gatheral">
-      <div class="legend-caption">
-        Jim Gatheral
-      </div>
+      <img src="/images/gatheral.JPG" alt="with Jim Gatheral">
+      <div class="legend-caption">Jim Gatheral</div>
     </div>
 
-
     <div class="legend-item">
-      <img src="/images/mikegiles.jpeg"
-           alt="with Mike Giles">
-      <div class="legend-caption">
-        Mike Giles
-      </div>
+      <img src="/images/mikegiles.jpeg" alt="with Mike Giles">
+      <div class="legend-caption">Mike Giles</div>
     </div>
 
-
     <div class="legend-item">
-      <img src="/images/glasserman.JPG"
-           alt="with Paul Glasserman">
-      <div class="legend-caption">
-        Paul Glasserman
-      </div>
+      <img src="/images/glasserman.JPG" alt="with Paul Glasserman">
+      <div class="legend-caption">Paul Glasserman</div>
     </div>
 
-
     <div class="legend-item">
-      <img src="/images/guasoni.JPG"
-           alt="with Paolo Guasoni">
-      <div class="legend-caption">
-        Paolo Guasoni
-      </div>
+      <img src="/images/guasoni.JPG" alt="with Paolo Guasoni">
+      <div class="legend-caption">Paolo Guasoni</div>
     </div>
 
-
     <div class="legend-item">
-      <img src="/images/kienitz.jpeg"
-           alt="with Joerg Kienitz">
-      <div class="legend-caption">
-        Joerg Kienitz
-      </div>
+      <img src="/images/kienitz.jpeg" alt="with Joerg Kienitz">
+      <div class="legend-caption">Joerg Kienitz</div>
     </div>
 
-
     <div class="legend-item">
-      <img src="/images/kou.jpeg"
-           alt="with Steven Kou">
-      <div class="legend-caption">
-        Steven Kou
-      </div>
+      <img src="/images/kou.jpeg" alt="with Steven Kou">
+      <div class="legend-caption">Steven Kou</div>
     </div>
 
-
     <div class="legend-item">
-      <img src="/images/mikko.jpeg"
-           alt="with Mikko Pakkanen">
-      <div class="legend-caption">
-        Mikko Pakkanen
-      </div>
+      <img src="/images/mikko.jpeg" alt="with Mikko Pakkanen">
+      <div class="legend-caption">Mikko Pakkanen</div>
     </div>
 
-
     <div class="legend-item">
-      <img src="/images/oosterlee.jpeg"
-           alt="with Cornelis W. Oosterlee">
-      <div class="legend-caption">
-        Cornelis W. Oosterlee
-      </div>
+      <img src="/images/oosterlee.jpeg" alt="with Cornelis W. Oosterlee">
+      <div class="legend-caption">Cornelis W. Oosterlee</div>
     </div>
 
-
     <div class="legend-item">
-      <img src="/images/tankov.jpeg"
-           alt="with Peter Tankov">
-      <div class="legend-caption">
-        Peter Tankov
-      </div>
+      <img src="/images/tankov.jpeg" alt="with Peter Tankov">
+      <div class="legend-caption">Peter Tankov</div>
     </div>
 
-
     <div class="legend-item">
-      <img src="/images/tebaldi.JPG"
-           alt="with Claudio Tebaldi">
-      <div class="legend-caption">
-        Claudio Tebaldi
-      </div>
+      <img src="/images/tebaldi.JPG" alt="with Claudio Tebaldi">
+      <div class="legend-caption">Claudio Tebaldi</div>
     </div>
 
-
     <div class="legend-item">
-      <img src="/images/veraartImperial.jpeg"
-           alt="with Almut Veraart">
-      <div class="legend-caption">
-        Almut Veraart
-      </div>
+      <img src="/images/veraartImperial.jpeg" alt="with Almut Veraart">
+      <div class="legend-caption">Almut Veraart</div>
     </div>
-
-
     <div class="legend-item">
-      <img src="/images/veraartLSE.JPG"
-           alt="with Luitgard Veraart">
-      <div class="legend-caption">
-        Luitgard Veraart
-      </div>
+      <img src="/images/veraartLSE.JPG" alt="with Luitgard Veraart">
+      <div class="legend-caption">Luitgard Veraart</div>
     </div>
-
 
   </div>
 
