@@ -32,14 +32,18 @@ author_profile: true
   text-decoration: underline;
 }
 
+/* More space below page title */
+.page__title {
+  margin-bottom: 1.15em !important;
+}
 
 /* =========================================================
    COLLAPSIBLE PAPERS
    ========================================================= */
 
 .paper-details {
-  margin-bottom: 2.2em;
-  padding-bottom: 1.8em;
+  margin-bottom: 1.4em;
+  padding-bottom: 1.4em;
   border-bottom: 1px solid rgba(128,128,128,0.25);
 }
 
@@ -237,7 +241,7 @@ author_profile: true
      IMPLIED IMPERMANENT LOSS
      ======================================================= -->
 
-<details class="paper-details" open>
+<details class="paper-details">
 
 <summary>
   Implied Impermanent Loss for Concentrated Liquidity
