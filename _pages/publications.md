@@ -149,7 +149,7 @@ with [A. Papanicolaou](https://math.sciences.ncsu.edu/people/apapani/) and [L. S
   <a href="https://iilx.io/"
      class="paper-btn"
      target="_blank"
-     rel="noopener noreferrer">Project website</a>
+     rel="noopener noreferrer">IILX</a>
 </div>
 
 <details>
