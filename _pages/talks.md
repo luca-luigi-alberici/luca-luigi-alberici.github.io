@@ -1,342 +1,3 @@
-<!---
----
-layout: single
-permalink: /talks/
-title: "Talks and Presentations"
-author_profile: true
----
-<style>
-.paper-group {
-  margin-bottom: 2.2em;
-  padding-bottom: 1.8em;
-  border-bottom: 1px solid rgba(128,128,128,0.25);
-}
-.paper-group:last-child { border-bottom: none; }
-.talk-paper {
-  font-size: 1.05em;
-  font-weight: bold;
-  color: #52adc8;
-  text-decoration: none;
-}
-.talk-paper:hover { text-decoration: underline; }
-.conf-item {
-  margin-top: 0.8em;
-  margin-left: 1em;
-}
-.talk-conference { font-weight: bold; }
-.talk-venue {
-  font-style: italic;
-  opacity: 0.65;
-  font-size: 0.95em;
-}
-details { margin-top: 0.4em; }
-details summary {
-  cursor: pointer;
-  color: #52adc8;
-  font-weight: bold;
-  font-size: 0.88em;
-  list-style: none;
-  user-select: none;
-}
-details summary::-webkit-details-marker { display: none; }
-details summary::after { content: ' ▶'; }
-details[open] summary::after { content: ' ▼'; }
-.photos-box {
-  display: flex;
-  gap: 8px;
-  flex-wrap: wrap;
-  margin-top: 0.5em;
-}
-.photos-box img {
-  border-radius: 6px;
-  max-height: 200px;
-  object-fit: cover;
-}
-.legends-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 14px;
-  margin-top: 1em;
-}
-.legend-item {
-  width: 160px;
-  text-align: center;
-}
-.legend-item img {
-  width: 160px;
-  height: 160px;
-  object-fit: cover;
-  border-radius: 8px;
-}
-.legend-caption {
-  margin-top: 6px;
-  font-size: 0.9em;
-  font-weight: bold;
-  opacity: 0.85;
-}
-</style>
-
----
-
-<div class="paper-group">
-<a class="talk-paper" href="/publications/">Implied Impermanent Loss for Concentrated Liquidity</a>
-
-<div class="conf-item">
-<div class="talk-conference"><a href="https://eventi.unibo.it/bachelier">XIII Bachelier World Congress</a></div>
-<div class="talk-venue">Bachelier Finance Society &amp; University of Bologna, Bologna, IT — 29 June – 3 July 2026</div>
-<details>
-<summary>Photos</summary>
-<div class="photos-box">
-  <img src="/images/conf_bologna1.jpeg" alt="Bologna 2026" style="width:32%;">
-  <img src="/images/conf_bologna2.jpeg" alt="Bologna 2026" style="width:32%;">
-  <img src="/images/conf_bologna3.jpg" alt="Bologna 2026" style="width:32%;">
-</div>
-</details>
-</div>
-
-<div class="conf-item">
-<div class="talk-conference"><a href="https://www.qmul.ac.uk/sef/events/conferences/items/8th-qmul-economics-and-finance-workshop-for-phd--post-doctoral-students.html">8th QMUL Economics and Finance Workshop</a></div>
-<div class="talk-venue">Queen Mary University of London, London, UK — 21–22 May 2026</div>
-<details>
-<summary>Photos</summary>
-<div class="photos-box">
-  <img src="/images/conf_qmul_2026_1.jpeg" alt="QMUL 2026" style="width:49%;">
-  <img src="/images/conf_qmul_2026_2.jpeg" alt="QMUL 2026" style="width:49%;">
-</div>
-</details>
-</div>
-
-<div class="conf-item">
-<div class="talk-conference"><a href="https://www.durham.ac.uk/business/news-and-events/events/2026/05/qrfe-quant-finance-workshop/">3rd QRFE Workshop on Quantitative Finance</a></div>
-<div class="talk-venue">Durham University Business School, Durham, UK — 6 May 2026</div>
-<details>
-<summary>Photos</summary>
-<div class="photos-box">
-  <img src="/images/conf_durham_2026_1.jpeg" alt="Durham 2026" style="width:32%;">
-  <img src="/images/conf_durham_2026_2.jpeg" alt="Durham 2026" style="width:32%;">
-  <img src="/images/conf_durham_2026_3.jpeg" alt="Durham 2026" style="width:32%;">
-</div>
-</details>
-</div>
-
-<div class="conf-item">
-<div class="talk-conference"><a href="https://britishblockchainassociation.org/isc2026/">8th Blockchain International Scientific Conference (ISC2026)</a></div>
-<div class="talk-venue">British Blockchain Association, London, UK — 27 March 2026</div>
-<details>
-<summary>Photos</summary>
-<div class="photos-box">
-  <img src="/images/conf_isc_london_2026_1.jpeg" alt="ISC London 2026" style="width:32%;">
-  <img src="/images/conf_isc_london_2026_2.jpeg" alt="ISC London 2026" style="width:32%;">
-  <img src="/images/conf_isc_london_2026_3.jpeg" alt="ISC London 2026" style="width:32%;">
-</div>
-</details>
-</div>
-
-<div class="conf-item">
-<div class="talk-conference"><a href="https://www.sns.it/it/evento/defi-crypto">Decentralized Finance &amp; Crypto Workshop, Scuola Normale Superiore</a></div>
-<div class="talk-venue">Scuola Normale Superiore, Pisa, IT — 26–28 January 2026</div>
-<details>
-<summary>Photos</summary>
-<div class="photos-box">
-  <img src="/images/conf_defi_pisa_2026_1.jpeg" alt="Pisa 2026" style="width:32%;">
-  <img src="/images/conf_defi_pisa_2026_2.jpeg" alt="Pisa 2026" style="width:32%;">
-  <img src="/images/conf_defi_pisa_2026_3.jpeg" alt="Pisa 2026" style="width:32%;">
-</div>
-</details>
-</div>
-
-<div class="conf-item">
-<div class="talk-conference"><a href="https://www.mate.polimi.it/events/ALGODEFI25/">Algo-trading &amp; DeFi Conference</a></div>
-<div class="talk-venue">Politecnico di Milano, Milan, IT — 16–17 October 2025</div>
-<details>
-<summary>Photos</summary>
-<div class="photos-box">
-  <img src="/images/conf_algodefi_milan_2025_1.jpeg" alt="Milan 2025" style="width:32%;">
-  <img src="/images/conf_algodefi_milan_2025_2.jpeg" alt="Milan 2025" style="width:32%;">
-  <img src="/images/conf_algodefi_milan_2025_3.jpeg" alt="Milan 2025" style="width:32%;">
-</div>
-</details>
-</div>
-
-</div>
-
-<div class="paper-group">
-<a class="talk-paper" href="/publications/">Estimation of a Hierarchical Normal-Inverse Gaussian Factor Model via the EM Algorithm</a>
-
-<div class="conf-item">
-<div class="talk-conference"><a href="https://iccf26.web.ox.ac.uk/">International Conference on Computational Finance</a></div>
-<div class="talk-venue">University of Oxford &amp; Oxford Man Institute of Quantitative Finance, Oxford, UK — 1-4 September 2026</div>
-<details>
-<summary>Photos</summary>
-<div class="photos-box">
-  <img src="/images/oxford1.jpeg" alt="Oxford 2026" style="width:32%;">
-  <img src="/images/oxford2.jpeg" alt="Oxford 2026" style="width:32%;">
-  <img src="/images/oxford4.jpeg" alt="Oxford 2026" style="width:32%;">
-</div>
-</details>
-</div>
-
-<div class="conf-item">
-<div class="talk-conference"><a href="https://eventi.unibo.it/bachelier">XIII Bachelier World Congress</a></div>
-<div class="talk-venue">Bachelier Finance Society &amp; University of Bologna, Bologna, IT — 29 June – 3 July 2026</div>
-<details>
-<summary>Photos</summary>
-<div class="photos-box">
-  <img src="/images/conf_bologna1.jpeg" alt="Bologna 2026" style="width:32%;">
-  <img src="/images/conf_bologna2.jpeg" alt="Bologna 2026" style="width:32%;">
-  <img src="/images/conf_bologna3.jpg" alt="Bologna 2026" style="width:32%;">
-</div>
-</details>
-</div>
-
-<div class="conf-item">
-<div class="talk-conference"><a href="https://www.bayes.citystgeorges.ac.uk/study/phd/finance">PhD Finance and Accounting Research Day</a></div>
-<div class="talk-venue">Bayes Business School, London, UK — 2 June 2026</div>
-<details>
-<summary>Photos</summary>
-<div class="photos-box">
-  <img src="/images/conf_phd_research_day_2026.png" alt="PhD Research Day 2026" style="width:60%;">
-</div>
-</details>
-</div>
-
-<div class="conf-item">
-<div class="talk-conference"><a href="https://sites.google.com/uniupo.it/seminari-ms/home-page">Seminari Matematici Statistici</a></div>
-<div class="talk-venue">Università del Piemonte Orientale, Novara, IT — 13 April 2026</div>
-<details>
-<summary>Photos</summary>
-<div class="photos-box">
-  <img src="/images/conf_mathseminar_novara_2026.png" alt="Novara 2026" style="width:49%;">
-  <img src="/images/conf_mathseminar_novara_2026_venue.jpg" alt="Novara venue" style="width:49%;">
-</div>
-</details>
-</div>
-
-<div class="conf-item">
-<div class="talk-conference">Finance, Actuarial Science and Management</div>
-<div class="talk-venue">Bayes Busineess School, London, UK — 19 March 2026</div>
-<details>
-<summary>Photos</summary>
-<div class="photos-box">
-  <img src="/images/fam.jpeg" alt="FAM 2026" style="width:49%;">
-</div>
-</details>
-</div>
-
-</div>
-
-<div class="paper-group">
-  <span class="talk-paper">Seminars Organized</span>
-
-  <div class="conf-item">
-    <div class="talk-conference">
-      <a href="https://bayes.campusgroups.com/faculty/rsvp_boot?id=300118854">
-        Quantitative Model Validation in Structured Credit: Numerical Benchmarks and Challenger Approaches
-      </a>
-    </div>
-
-    <div class="talk-venue">
-      Speakers:
-      <a href="https://www.linkedin.com/in/giuseppe-bonavolont%C3%A0-8258988b/" target="_blank">Giuseppe Bonavolontà</a>
-      &
-      <a href="https://www.linkedin.com/in/alper-hekimoglu-frm-phd-45593830/" target="_blank">Alper Hekimoglu</a>
-      — Financial Engineering Workshop, Bayes Business School, London, UK — 1 April 2026
-    </div>
-  </div>
-</div>
-
----
-
-<div class="paper-group">
-<span class="talk-paper">Snapshots of Quantitative Finance Legends</span>
-
-<div class="legends-grid">
-  <div class="legend-item">
-    <img src="/images/Albrecher.jpeg" alt="with Hansj&ouml;rg Albrecher">
-    <div class="legend-caption">Hansj&ouml;rg Albrecher</div>
-  </div>
-  <div class="legend-item">
-    <img src="/images/ales.jpeg" alt="with Aleš Černý">
-    <div class="legend-caption">Aleš Černý</div>
-  </div>
-  <div class="legend-item">
-    <img src="/images/dinunno.jpeg" alt="with Di Nunno">
-    <div class="legend-caption">Giulia Di Nunno</div>
-  </div>
-  <div class="legend-item">
-    <img src="/images/dupire.jpeg" alt="with Bruno Dupire">
-    <div class="legend-caption">Bruno Dupire</div>
-  </div>
-  <div class="legend-item">
-    <img src="/images/nicoleelk.png" alt="with Nicole El Karoui">
-    <div class="legend-caption">Nicole El Karoui</div>
-  </div>
-  <div class="legend-item">
-    <img src="/images/engle.jpeg" alt="with Robert Engle">
-    <div class="legend-caption">Robert Engle</div>
-  </div>
-  <div class="legend-item">
-    <img src="/images/fang.jpeg" alt="with Fang Fang">
-    <div class="legend-caption">Fang Fang</div>
-  </div>
-  <div class="legend-item">
-    <img src="/images/filipovich.jpeg" alt="with Damir Filipović">
-    <div class="legend-caption">Damir Filipović</div>
-  </div>
-  <div class="legend-item">
-    <img src="/images/gatheral.JPG" alt="with Jim Gatheral">
-    <div class="legend-caption">Jim Gatheral</div>
-  </div>
-     <div class="legend-item">
-    <img src="/images/mikegiles.jpeg" alt="with Mike Giles">
-    <div class="legend-caption">Mike Giles</div>
-  </div>
-  <div class="legend-item">
-    <img src="/images/glasserman.JPG" alt="with Paul Glasserman">
-    <div class="legend-caption">Paul Glasserman</div>
-  </div>
-  <div class="legend-item">
-    <img src="/images/guasoni.JPG" alt="with Paolo Guasoni">
-    <div class="legend-caption">Paolo Guasoni</div>
-  </div>
-  <div class="legend-item">
-    <img src="/images/kienitz.jpeg" alt="with Joerg Kienitz">
-    <div class="legend-caption">Joerg Kienitz</div>
-  </div>
-  <div class="legend-item">
-    <img src="/images/kou.jpeg" alt="with Steven Kou">
-    <div class="legend-caption">Steven Kou</div>
-  </div>
-  <div class="legend-item">
-    <img src="/images/mikko.jpeg" alt="with Mikko Pakkanen">
-    <div class="legend-caption">Mikko Pakkanen</div>
-  </div>
-  <div class="legend-item">
-    <img src="/images/oosterlee.jpeg" alt="with Cornelis W. Oosterlee">
-    <div class="legend-caption">Cornelis W. Oosterlee</div>
-  </div>
-  <div class="legend-item">
-    <img src="/images/tankov.jpeg" alt="with Peter Tankov">
-    <div class="legend-caption">Peter Tankov</div>
-  </div>
-  <div class="legend-item">
-    <img src="/images/tebaldi.JPG" alt="with Claudio Tebaldi">
-    <div class="legend-caption">Claudio Tebaldi</div>
-  </div>
-  <div class="legend-item">
-    <img src="/images/veraartImperial.jpeg" alt="with Almut Veraart">
-    <div class="legend-caption">Almut Veraart</div>
-  </div>
-  <div class="legend-item">
-    <img src="/images/veraartLSE.JPG" alt="with Luitgard Veraart">
-    <div class="legend-caption">Luitgard Veraart</div>
-  </div>
-</div>
-
-</div>
---->
-
-
 ---
 layout: single
 permalink: /talks/
@@ -1017,3 +678,341 @@ author_profile: true
 </details>
 
 </div>
+
+<!---
+---
+layout: single
+permalink: /talks/
+title: "Talks and Presentations"
+author_profile: true
+---
+<style>
+.paper-group {
+  margin-bottom: 2.2em;
+  padding-bottom: 1.8em;
+  border-bottom: 1px solid rgba(128,128,128,0.25);
+}
+.paper-group:last-child { border-bottom: none; }
+.talk-paper {
+  font-size: 1.05em;
+  font-weight: bold;
+  color: #52adc8;
+  text-decoration: none;
+}
+.talk-paper:hover { text-decoration: underline; }
+.conf-item {
+  margin-top: 0.8em;
+  margin-left: 1em;
+}
+.talk-conference { font-weight: bold; }
+.talk-venue {
+  font-style: italic;
+  opacity: 0.65;
+  font-size: 0.95em;
+}
+details { margin-top: 0.4em; }
+details summary {
+  cursor: pointer;
+  color: #52adc8;
+  font-weight: bold;
+  font-size: 0.88em;
+  list-style: none;
+  user-select: none;
+}
+details summary::-webkit-details-marker { display: none; }
+details summary::after { content: ' ▶'; }
+details[open] summary::after { content: ' ▼'; }
+.photos-box {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 0.5em;
+}
+.photos-box img {
+  border-radius: 6px;
+  max-height: 200px;
+  object-fit: cover;
+}
+.legends-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 1em;
+}
+.legend-item {
+  width: 160px;
+  text-align: center;
+}
+.legend-item img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.legend-caption {
+  margin-top: 6px;
+  font-size: 0.9em;
+  font-weight: bold;
+  opacity: 0.85;
+}
+</style>
+
+---
+
+<div class="paper-group">
+<a class="talk-paper" href="/publications/">Implied Impermanent Loss for Concentrated Liquidity</a>
+
+<div class="conf-item">
+<div class="talk-conference"><a href="https://eventi.unibo.it/bachelier">XIII Bachelier World Congress</a></div>
+<div class="talk-venue">Bachelier Finance Society &amp; University of Bologna, Bologna, IT — 29 June – 3 July 2026</div>
+<details>
+<summary>Photos</summary>
+<div class="photos-box">
+  <img src="/images/conf_bologna1.jpeg" alt="Bologna 2026" style="width:32%;">
+  <img src="/images/conf_bologna2.jpeg" alt="Bologna 2026" style="width:32%;">
+  <img src="/images/conf_bologna3.jpg" alt="Bologna 2026" style="width:32%;">
+</div>
+</details>
+</div>
+
+<div class="conf-item">
+<div class="talk-conference"><a href="https://www.qmul.ac.uk/sef/events/conferences/items/8th-qmul-economics-and-finance-workshop-for-phd--post-doctoral-students.html">8th QMUL Economics and Finance Workshop</a></div>
+<div class="talk-venue">Queen Mary University of London, London, UK — 21–22 May 2026</div>
+<details>
+<summary>Photos</summary>
+<div class="photos-box">
+  <img src="/images/conf_qmul_2026_1.jpeg" alt="QMUL 2026" style="width:49%;">
+  <img src="/images/conf_qmul_2026_2.jpeg" alt="QMUL 2026" style="width:49%;">
+</div>
+</details>
+</div>
+
+<div class="conf-item">
+<div class="talk-conference"><a href="https://www.durham.ac.uk/business/news-and-events/events/2026/05/qrfe-quant-finance-workshop/">3rd QRFE Workshop on Quantitative Finance</a></div>
+<div class="talk-venue">Durham University Business School, Durham, UK — 6 May 2026</div>
+<details>
+<summary>Photos</summary>
+<div class="photos-box">
+  <img src="/images/conf_durham_2026_1.jpeg" alt="Durham 2026" style="width:32%;">
+  <img src="/images/conf_durham_2026_2.jpeg" alt="Durham 2026" style="width:32%;">
+  <img src="/images/conf_durham_2026_3.jpeg" alt="Durham 2026" style="width:32%;">
+</div>
+</details>
+</div>
+
+<div class="conf-item">
+<div class="talk-conference"><a href="https://britishblockchainassociation.org/isc2026/">8th Blockchain International Scientific Conference (ISC2026)</a></div>
+<div class="talk-venue">British Blockchain Association, London, UK — 27 March 2026</div>
+<details>
+<summary>Photos</summary>
+<div class="photos-box">
+  <img src="/images/conf_isc_london_2026_1.jpeg" alt="ISC London 2026" style="width:32%;">
+  <img src="/images/conf_isc_london_2026_2.jpeg" alt="ISC London 2026" style="width:32%;">
+  <img src="/images/conf_isc_london_2026_3.jpeg" alt="ISC London 2026" style="width:32%;">
+</div>
+</details>
+</div>
+
+<div class="conf-item">
+<div class="talk-conference"><a href="https://www.sns.it/it/evento/defi-crypto">Decentralized Finance &amp; Crypto Workshop, Scuola Normale Superiore</a></div>
+<div class="talk-venue">Scuola Normale Superiore, Pisa, IT — 26–28 January 2026</div>
+<details>
+<summary>Photos</summary>
+<div class="photos-box">
+  <img src="/images/conf_defi_pisa_2026_1.jpeg" alt="Pisa 2026" style="width:32%;">
+  <img src="/images/conf_defi_pisa_2026_2.jpeg" alt="Pisa 2026" style="width:32%;">
+  <img src="/images/conf_defi_pisa_2026_3.jpeg" alt="Pisa 2026" style="width:32%;">
+</div>
+</details>
+</div>
+
+<div class="conf-item">
+<div class="talk-conference"><a href="https://www.mate.polimi.it/events/ALGODEFI25/">Algo-trading &amp; DeFi Conference</a></div>
+<div class="talk-venue">Politecnico di Milano, Milan, IT — 16–17 October 2025</div>
+<details>
+<summary>Photos</summary>
+<div class="photos-box">
+  <img src="/images/conf_algodefi_milan_2025_1.jpeg" alt="Milan 2025" style="width:32%;">
+  <img src="/images/conf_algodefi_milan_2025_2.jpeg" alt="Milan 2025" style="width:32%;">
+  <img src="/images/conf_algodefi_milan_2025_3.jpeg" alt="Milan 2025" style="width:32%;">
+</div>
+</details>
+</div>
+
+</div>
+
+<div class="paper-group">
+<a class="talk-paper" href="/publications/">Estimation of a Hierarchical Normal-Inverse Gaussian Factor Model via the EM Algorithm</a>
+
+<div class="conf-item">
+<div class="talk-conference"><a href="https://iccf26.web.ox.ac.uk/">International Conference on Computational Finance</a></div>
+<div class="talk-venue">University of Oxford &amp; Oxford Man Institute of Quantitative Finance, Oxford, UK — 1-4 September 2026</div>
+<details>
+<summary>Photos</summary>
+<div class="photos-box">
+  <img src="/images/oxford1.jpeg" alt="Oxford 2026" style="width:32%;">
+  <img src="/images/oxford2.jpeg" alt="Oxford 2026" style="width:32%;">
+  <img src="/images/oxford4.jpeg" alt="Oxford 2026" style="width:32%;">
+</div>
+</details>
+</div>
+
+<div class="conf-item">
+<div class="talk-conference"><a href="https://eventi.unibo.it/bachelier">XIII Bachelier World Congress</a></div>
+<div class="talk-venue">Bachelier Finance Society &amp; University of Bologna, Bologna, IT — 29 June – 3 July 2026</div>
+<details>
+<summary>Photos</summary>
+<div class="photos-box">
+  <img src="/images/conf_bologna1.jpeg" alt="Bologna 2026" style="width:32%;">
+  <img src="/images/conf_bologna2.jpeg" alt="Bologna 2026" style="width:32%;">
+  <img src="/images/conf_bologna3.jpg" alt="Bologna 2026" style="width:32%;">
+</div>
+</details>
+</div>
+
+<div class="conf-item">
+<div class="talk-conference"><a href="https://www.bayes.citystgeorges.ac.uk/study/phd/finance">PhD Finance and Accounting Research Day</a></div>
+<div class="talk-venue">Bayes Business School, London, UK — 2 June 2026</div>
+<details>
+<summary>Photos</summary>
+<div class="photos-box">
+  <img src="/images/conf_phd_research_day_2026.png" alt="PhD Research Day 2026" style="width:60%;">
+</div>
+</details>
+</div>
+
+<div class="conf-item">
+<div class="talk-conference"><a href="https://sites.google.com/uniupo.it/seminari-ms/home-page">Seminari Matematici Statistici</a></div>
+<div class="talk-venue">Università del Piemonte Orientale, Novara, IT — 13 April 2026</div>
+<details>
+<summary>Photos</summary>
+<div class="photos-box">
+  <img src="/images/conf_mathseminar_novara_2026.png" alt="Novara 2026" style="width:49%;">
+  <img src="/images/conf_mathseminar_novara_2026_venue.jpg" alt="Novara venue" style="width:49%;">
+</div>
+</details>
+</div>
+
+<div class="conf-item">
+<div class="talk-conference">Finance, Actuarial Science and Management</div>
+<div class="talk-venue">Bayes Busineess School, London, UK — 19 March 2026</div>
+<details>
+<summary>Photos</summary>
+<div class="photos-box">
+  <img src="/images/fam.jpeg" alt="FAM 2026" style="width:49%;">
+</div>
+</details>
+</div>
+
+</div>
+
+<div class="paper-group">
+  <span class="talk-paper">Seminars Organized</span>
+
+  <div class="conf-item">
+    <div class="talk-conference">
+      <a href="https://bayes.campusgroups.com/faculty/rsvp_boot?id=300118854">
+        Quantitative Model Validation in Structured Credit: Numerical Benchmarks and Challenger Approaches
+      </a>
+    </div>
+
+    <div class="talk-venue">
+      Speakers:
+      <a href="https://www.linkedin.com/in/giuseppe-bonavolont%C3%A0-8258988b/" target="_blank">Giuseppe Bonavolontà</a>
+      &
+      <a href="https://www.linkedin.com/in/alper-hekimoglu-frm-phd-45593830/" target="_blank">Alper Hekimoglu</a>
+      — Financial Engineering Workshop, Bayes Business School, London, UK — 1 April 2026
+    </div>
+  </div>
+</div>
+
+---
+
+<div class="paper-group">
+<span class="talk-paper">Snapshots of Quantitative Finance Legends</span>
+
+<div class="legends-grid">
+  <div class="legend-item">
+    <img src="/images/Albrecher.jpeg" alt="with Hansj&ouml;rg Albrecher">
+    <div class="legend-caption">Hansj&ouml;rg Albrecher</div>
+  </div>
+  <div class="legend-item">
+    <img src="/images/ales.jpeg" alt="with Aleš Černý">
+    <div class="legend-caption">Aleš Černý</div>
+  </div>
+  <div class="legend-item">
+    <img src="/images/dinunno.jpeg" alt="with Di Nunno">
+    <div class="legend-caption">Giulia Di Nunno</div>
+  </div>
+  <div class="legend-item">
+    <img src="/images/dupire.jpeg" alt="with Bruno Dupire">
+    <div class="legend-caption">Bruno Dupire</div>
+  </div>
+  <div class="legend-item">
+    <img src="/images/nicoleelk.png" alt="with Nicole El Karoui">
+    <div class="legend-caption">Nicole El Karoui</div>
+  </div>
+  <div class="legend-item">
+    <img src="/images/engle.jpeg" alt="with Robert Engle">
+    <div class="legend-caption">Robert Engle</div>
+  </div>
+  <div class="legend-item">
+    <img src="/images/fang.jpeg" alt="with Fang Fang">
+    <div class="legend-caption">Fang Fang</div>
+  </div>
+  <div class="legend-item">
+    <img src="/images/filipovich.jpeg" alt="with Damir Filipović">
+    <div class="legend-caption">Damir Filipović</div>
+  </div>
+  <div class="legend-item">
+    <img src="/images/gatheral.JPG" alt="with Jim Gatheral">
+    <div class="legend-caption">Jim Gatheral</div>
+  </div>
+     <div class="legend-item">
+    <img src="/images/mikegiles.jpeg" alt="with Mike Giles">
+    <div class="legend-caption">Mike Giles</div>
+  </div>
+  <div class="legend-item">
+    <img src="/images/glasserman.JPG" alt="with Paul Glasserman">
+    <div class="legend-caption">Paul Glasserman</div>
+  </div>
+  <div class="legend-item">
+    <img src="/images/guasoni.JPG" alt="with Paolo Guasoni">
+    <div class="legend-caption">Paolo Guasoni</div>
+  </div>
+  <div class="legend-item">
+    <img src="/images/kienitz.jpeg" alt="with Joerg Kienitz">
+    <div class="legend-caption">Joerg Kienitz</div>
+  </div>
+  <div class="legend-item">
+    <img src="/images/kou.jpeg" alt="with Steven Kou">
+    <div class="legend-caption">Steven Kou</div>
+  </div>
+  <div class="legend-item">
+    <img src="/images/mikko.jpeg" alt="with Mikko Pakkanen">
+    <div class="legend-caption">Mikko Pakkanen</div>
+  </div>
+  <div class="legend-item">
+    <img src="/images/oosterlee.jpeg" alt="with Cornelis W. Oosterlee">
+    <div class="legend-caption">Cornelis W. Oosterlee</div>
+  </div>
+  <div class="legend-item">
+    <img src="/images/tankov.jpeg" alt="with Peter Tankov">
+    <div class="legend-caption">Peter Tankov</div>
+  </div>
+  <div class="legend-item">
+    <img src="/images/tebaldi.JPG" alt="with Claudio Tebaldi">
+    <div class="legend-caption">Claudio Tebaldi</div>
+  </div>
+  <div class="legend-item">
+    <img src="/images/veraartImperial.jpeg" alt="with Almut Veraart">
+    <div class="legend-caption">Almut Veraart</div>
+  </div>
+  <div class="legend-item">
+    <img src="/images/veraartLSE.JPG" alt="with Luitgard Veraart">
+    <div class="legend-caption">Luitgard Veraart</div>
+  </div>
+</div>
+
+</div>
+--->
