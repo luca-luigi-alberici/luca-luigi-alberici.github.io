@@ -336,12 +336,13 @@ details[open] summary::after { content: ' ▼'; }
 </div>
 --->
 
-```html
+
 ---
 layout: single
 permalink: /talks/
 title: "Talks and Presentations"
 author_profile: true
+
 ---
 
 <style>
@@ -1221,4 +1222,3 @@ details.paper-group[open] > .paper-summary::after {
 </details>
 
 </div>
-```
