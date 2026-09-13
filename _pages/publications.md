@@ -5,20 +5,44 @@ title: "Publications"
 author_profile: true
 ---
 <style>
-.ssrn-btn {
+/* Links / badges for papers */
+.paper-links {
+  margin-top: 0.45em;
+  margin-bottom: 0.7em;
+}
+
+.paper-btn {
   display: inline-block;
-  border: 1px solid rgba(128,128,128,0.5);
+  border: 1px solid rgba(82, 173, 200, 0.65);
   border-radius: 4px;
-  padding: 1px 8px;
+  padding: 2px 9px;
+  margin-right: 5px;
   font-size: 0.78em;
-  color: rgba(128,128,128,0.8);
+  color: #52adc8 !important;
   background: transparent;
-  cursor: default;
-  font-weight: normal;
+  font-weight: 600;
+  text-decoration: none !important;
   white-space: nowrap;
   vertical-align: middle;
 }
-details { margin-top: 0.5em; margin-bottom: 1.5em; }
+
+.paper-btn:hover {
+  background: rgba(82, 173, 200, 0.10);
+  text-decoration: none !important;
+}
+
+/* Disabled button, e.g. SSRN not available yet */
+.paper-btn.disabled {
+  border-color: rgba(128,128,128,0.4);
+  color: rgba(128,128,128,0.7) !important;
+  cursor: default;
+}
+
+details {
+  margin-top: 0.6em;
+  margin-bottom: 1.5em;
+}
+
 details summary {
   cursor: pointer;
   color: #52adc8;
@@ -27,16 +51,53 @@ details summary {
   list-style: none;
   user-select: none;
 }
-details summary::-webkit-details-marker { display: none; }
-details summary::after { content: ' ▶'; }
-details[open] summary::after { content: ' ▼'; }
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+details summary::after {
+  content: ' ▶';
+}
+
+details[open] summary::after {
+  content: ' ▼';
+}
+
 .abstract-box {
   margin-top: 0.6em;
-  background: rgba(128,128,128,0.1);
+  background: rgba(128,128,128,0.08);
   border-radius: 6px;
-  padding: 0.9em 1.1em;
+  padding: 1em 1.15em;
   font-size: 0.93em;
   line-height: 1.65;
+}
+
+/* Metadata below abstract */
+.paper-meta {
+  margin-top: 1em;
+  padding-top: 0.75em;
+  border-top: 1px solid rgba(128,128,128,0.20);
+  font-size: 0.90em;
+}
+
+.meta-row {
+  margin-top: 0.35em;
+}
+
+.meta-label {
+  font-weight: 600;
+  color: inherit;
+}
+
+.keyword {
+  display: inline-block;
+  padding: 1px 7px;
+  margin: 2px 3px 2px 0;
+  border-radius: 10px;
+  background: rgba(82, 173, 200, 0.10);
+  color: #4a94aa;
+  font-size: 0.90em;
 }
 </style>
 
@@ -44,43 +105,81 @@ details[open] summary::after { content: ' ▼'; }
 
 ---
 
-**Estimation of a Hierarchical Normal-Inverse Gaussian Factor Model via the EM Algorithm** 
-
-<span class="ssrn-btn">SSRN</span>  
+**Estimation of a Hierarchical Normal-Inverse Gaussian Factor Model via the EM Algorithm**
 
 with [L. Ballotta](https://scholar.google.com/citations?user=rmmGBqMAAAAJ&hl=en) and [G. Fusai](https://scholar.google.com/citations?user=j92IMd0AAAAJ&hl=it)
 
+<div class="paper-links">
+  <span class="paper-btn disabled">SSRN</span>
+</div>
+
 <details>
 <summary>Abstract</summary>
+
 <div class="abstract-box">
+
 We propose a hierarchical Normal-Inverse Gaussian (NIG) factor model in which a latent mixing variable drives both the conditional mean and variance of each observation. This mean-variance mixing generalises existing latent-factor specifications — restricted to the variance component only — producing marginal distributions that jointly capture heavy tails, excess kurtosis, and asymmetry. We derive closed-form EM updates for all parameter blocks. Exploiting the NIG structure, the characteristic function of any portfolio return admits a closed form, from which the first four cumulants follow analytically — without estimating high-dimensional co-skewness and co-kurtosis tensors.
 
-*Keywords*: Factor model, Normal-Inverse Gaussian distribution, EM algorithm, latent variables, downside risk.
+<div class="paper-meta">
+  <div class="meta-row">
+    <span class="meta-label">Keywords:</span>
+    <span class="keyword">Factor model</span>
+    <span class="keyword">Normal-Inverse Gaussian distribution</span>
+    <span class="keyword">EM algorithm</span>
+    <span class="keyword">Latent variables</span>
+    <span class="keyword">Downside risk</span>
+  </div>
+</div>
+
 </div>
 </details>
 
 ---
-<!--
-**Implied Impermanent Loss for Concentrated Liquidity** <span class="ssrn-btn">SSRN</span>  
-with [A. Papanicolaou](https://math.sciences.ncsu.edu/people/apapani/) and [L. Schoenleber](https://sites.google.com/view/lorenzo-schoenleber/menu)
 
-**Implied Impermanent Loss for Concentrated Liquidity** — [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7380038)
-with [A. Papanicolaou](https://math.sciences.ncsu.edu/people/apapani/) and [L. Schoenleber](https://sites.google.com/view/lorenzo-schoenleber/menu)
--->
-
-**Implied Impermanent Loss for Concentrated Liquidity** 
-
-<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7380038" class="ssrn-btn" target="_blank" rel="noopener noreferrer">SSRN</a>
+**Implied Impermanent Loss for Concentrated Liquidity**
 
 with [A. Papanicolaou](https://math.sciences.ncsu.edu/people/apapani/) and [L. Schoenleber](https://sites.google.com/view/lorenzo-schoenleber/menu)
+
+<div class="paper-links">
+  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7380038"
+     class="paper-btn"
+     target="_blank"
+     rel="noopener noreferrer">SSRN</a>
+
+  <a href="https://iilx.io/"
+     class="paper-btn"
+     target="_blank"
+     rel="noopener noreferrer">Project website</a>
+</div>
+
 <details>
 <summary>Abstract</summary>
+
 <div class="abstract-box">
+
 Providing liquidity on decentralized exchanges earns fees but exposes liquidity providers (LPs) to impermanent loss from price movements. With concentrated liquidity, LPs control this risk by choosing how narrowly to deploy capital around the price. Using option prices, we quantify the cost of liquidity provision by developing measures of implied impermanent loss for concentrated liquidity and define the associated impermanent loss risk premium. Empirically, higher expected impermanent loss widens liquidity ranges, while higher risk premia re-center and tighten liquidity around the spot price, highlighting opposing effects of risk and compensation.
 
-*Keywords*: Decentralized Exchanges, Decentralized Finance, Risk-Neutral Pricing, Risk Premium, Staking, Impermanent Loss, Derivatives.
+<div class="paper-meta">
+  <div class="meta-row">
+    <span class="meta-label">Keywords:</span>
+    <span class="keyword">Decentralized Exchanges</span>
+    <span class="keyword">Decentralized Finance</span>
+    <span class="keyword">Risk-Neutral Pricing</span>
+    <span class="keyword">Risk Premium</span>
+    <span class="keyword">Staking</span>
+    <span class="keyword">Impermanent Loss</span>
+    <span class="keyword">Derivatives</span>
+  </div>
 
-*JEL Classification Codes*: G10, G11, G13, G20.
+  <div class="meta-row">
+    <span class="meta-label">JEL:</span>
+    <span class="keyword">G10</span>
+    <span class="keyword">G11</span>
+    <span class="keyword">G13</span>
+    <span class="keyword">G20</span>
+  </div>
+</div>
+
 </div>
 </details>
 
