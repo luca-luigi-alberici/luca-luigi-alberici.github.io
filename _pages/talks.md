@@ -548,6 +548,32 @@ author_profile: true
 
 </div>
 
+<!-- =======================================================
+     CONFERENCES ATTENDED
+     ======================================================= -->
+
+<div class="paper-group">
+
+  <span class="talk-paper">
+    Conferences Attended
+  </span>
+
+  <div class="conf-item">
+
+    <div class="talk-conference">
+      <a href="https://www.wbs.ac.uk/events/view/9577/">
+        5th Annual WBS Gillmore Centre Academic Conference on DeFi &amp; Digital Currencies
+      </a>
+    </div>
+
+    <div class="talk-venue">
+      Warwick Business School, The Shard, London, UK — 21–22 September 2026
+    </div>
+
+  </div>
+
+</div>
+
 
 <!-- =======================================================
      SNAPSHOTS
