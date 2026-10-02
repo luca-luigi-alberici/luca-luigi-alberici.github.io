@@ -109,9 +109,11 @@ details[open] summary::after {
 
 with [L. Ballotta](https://scholar.google.com/citations?user=rmmGBqMAAAAJ&hl=en) and [G. Fusai](https://scholar.google.com/citations?user=j92IMd0AAAAJ&hl=it)
 
+<!---
 <div class="paper-links">
   <span class="paper-btn disabled">SSRN</span>
 </div>
+--->
 
 <details>
 <summary>Abstract</summary>
