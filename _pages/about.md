@@ -19,7 +19,7 @@ Statistical Learning · Machine Learning in Finance · Quantitative Risk Managem
 
 ## Beyond Academia
 
-Outside work, I am passionate about hiking. I particularly enjoy exploring new countries through their landscapes, cultures, and food.
+Outside academia, I am passionate about hiking. I particularly enjoy exploring new countries through their landscapes, cultures, and food.
 
 Among my favourite places are Camogli, Gran Paradiso National Park, and Lake Como in Italy, as well as the Lake District, the Seven Sisters cliffs, and Scotland in the UK.
 
