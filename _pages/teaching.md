@@ -380,6 +380,40 @@ author_profile: true
 
 </details>
 
+<details class="course-details">
+
+  <summary>Stochastic Models</summary>
+
+  <div class="course-body">
+
+    <div class="badges">
+      <span class="inst-badge">Bayes</span>
+      <span class="role-badge">Graduate Teaching Assistant</span>
+      <span class="meta-badge">BSc</span>
+    </div>
+
+    <p>
+      <strong>Bayes Business School</strong> —
+      <em>a.y. 2026–2027</em><br>
+
+      Module Leader:
+
+      <a href="https://www.bayes.citystgeorges.ac.uk/faculties-and-research/experts/pietro-millossovich"
+         target="_blank"
+         rel="noopener noreferrer">
+        Dr Pietro Millossovich
+      </a>
+    </p>
+
+    <p>
+      Topics covered: stochastic processes, random walks, discrete-time
+      Markov chains, simulation methods, Poisson processes, Markov jump
+      processes, and time-series models.
+    </p>
+
+  </div>
+
+</details>
 
 <details class="course-details">
 
