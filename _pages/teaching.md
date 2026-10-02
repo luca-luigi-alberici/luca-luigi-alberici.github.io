@@ -390,6 +390,7 @@ author_profile: true
       <span class="inst-badge">Bayes</span>
       <span class="role-badge">Graduate Teaching Assistant</span>
       <span class="meta-badge">BSc</span>
+      <span class="meta-badge">R</span>
     </div>
 
     <p>

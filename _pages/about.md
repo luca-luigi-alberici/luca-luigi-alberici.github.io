@@ -17,6 +17,12 @@ You can contact me at [luca-luigi.alberici@bayes.city.ac.uk](luca-luigi.alberici
 
 Statistical Learning · Machine Learning in Finance · Quantitative Risk Management · Asset Pricing · Decentralised Finance (DeFi) · Option-Implied Information · Bayesian Inference · Latent Factor Models · EM Algorithm
 
+## Beyond Academia
+
+Outside work, I am passionate about hiking. I particularly enjoy exploring new countries through their landscapes, cultures, and food.
+
+Among my favourite places are Camogli, Gran Paradiso National Park, and Lake Como in Italy, as well as the Lake District, the Seven Sisters cliffs, and Scotland in the UK.
+
 ## News
 
 - **September 2026** — New working paper, [Implied Impermanent Loss for Concentrated Liquidity](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7380038), with [A. Papanicolaou](https://math.sciences.ncsu.edu/people/apapani/) and [L. Schoenleber](https://sites.google.com/view/lorenzo-schoenleber/menu), now available on SSRN.
