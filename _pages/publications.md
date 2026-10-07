@@ -106,7 +106,6 @@ details[open] summary::after {
 ---
 
 **Estimation of a Hierarchical Normal-Inverse Gaussian Factor Model via the EM Algorithm**
-
 with [L. Ballotta](https://scholar.google.com/citations?user=rmmGBqMAAAAJ&hl=en) and [G. Fusai](https://scholar.google.com/citations?user=j92IMd0AAAAJ&hl=it)
 
 <details>
@@ -133,7 +132,6 @@ We propose a hierarchical Normal-Inverse Gaussian (NIG) factor model in which a 
 ---
 
 **Implied Impermanent Loss for Concentrated Liquidity**
-
 with [A. Papanicolaou](https://math.sciences.ncsu.edu/people/apapani/) and [L. Schoenleber](https://sites.google.com/view/lorenzo-schoenleber/menu)
 
 <div class="paper-links">
