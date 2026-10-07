@@ -7,7 +7,7 @@ author_profile: true
 ## Industry & Professional Bodies
 
 **Institute and Faculty of Actuaries ([IFoA](https://actuaries.org.uk/))** *(June 2026 – present)*
-Member, General Insurance – Machine Learning in Reserving Working Party
+Team Leader, General Insurance – Machine Learning in Reserving Working Party
 
 Investigating applications of machine learning in general insurance reserving. Contributing to industry research, methodological development, and knowledge-sharing initiatives at the intersection of actuarial science, finance, and machine learning.
 

@@ -106,6 +106,7 @@ details[open] summary::after {
 ---
 
 **Estimation of a Hierarchical Normal-Inverse Gaussian Factor Model via the EM Algorithm**
+
 with [L. Ballotta](https://scholar.google.com/citations?user=rmmGBqMAAAAJ&hl=en) and [G. Fusai](https://scholar.google.com/citations?user=j92IMd0AAAAJ&hl=it)
 
 <details>
@@ -132,6 +133,7 @@ We propose a hierarchical Normal-Inverse Gaussian (NIG) factor model in which a 
 ---
 
 **Implied Impermanent Loss for Concentrated Liquidity**
+
 with [A. Papanicolaou](https://math.sciences.ncsu.edu/people/apapani/) and [L. Schoenleber](https://sites.google.com/view/lorenzo-schoenleber/menu)
 
 <div class="paper-links">
@@ -180,6 +182,7 @@ Providing liquidity on decentralized exchanges earns fees but exposes liquidity 
 ---
 
 **Disciplined Learning: A GenAI Framework for Arbitrage-Free Term Structures**
+
 with [L. Ballotta](https://scholar.google.com/citations?user=rmmGBqMAAAAJ&hl=en) and [G. Fusai](https://scholar.google.com/citations?user=j92IMd0AAAAJ&hl=it)
 
 ---
@@ -191,7 +194,7 @@ with [A. A. Hekimoglu](https://scholar.google.com/citations?user=w1okjtwAAAAJ&hl
 
 ---
 
-**Technical Efficiency: A Regularization-Based Framework** <span class="ssrn-btn">SSRN</span>  
+**Technical Efficiency: A Regularization-Based Framework**
 with [F. Centrone](https://upobook.uniupo.it/francesca.centrone) and [A. Goia](https://scholar.google.com/citations?user=qP_hjCcAAAAJ&hl=it)
 
 <!--
