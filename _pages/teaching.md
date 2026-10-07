@@ -320,7 +320,7 @@ author_profile: true
       </div>
 
       <p>
-        <em>a.y. 2025–2026</em><br>
+        <em>a.y. 2025–2027</em><br>
         Module Leader:
         <a href="https://profiles.imperial.ac.uk/r.versteeg"
            target="_blank"
@@ -768,8 +768,6 @@ author_profile: true
 
 </details>
 
-
-<hr>
 
 
 <!-- =======================================================

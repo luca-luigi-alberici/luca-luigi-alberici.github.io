@@ -544,6 +544,24 @@ author_profile: true
       — Financial Engineering Workshop, Bayes Business School, London, UK — 1 April 2026
     </div>
 
+    <div class="talk-conference">
+      <a href="https://www.bayes.citystgeorges.ac.uk/faculties-and-research/finance/events/financial-engineering-workshops#accordion-1014195-header-0">
+        Multiscaling in the Rough Bergomi Model: A Tale of Tails
+      </a>
+    </div>
+
+    <div class="talk-venue">
+      Speaker:
+
+      <a href="http://gbrandi.net/"
+         target="_blank"
+         rel="noopener noreferrer">
+        Giuseppe Brandi
+      </a>
+
+      — Financial Engineering Workshop, Bayes Business School, London, UK — 14 October 2026
+    </div>
+
   </div>
 
 </div>
