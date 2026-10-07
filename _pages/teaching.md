@@ -451,6 +451,44 @@ author_profile: true
 
 </details>
 
+<details class="course-details">
+
+  <summary>Research Methods for Accounting &amp; Finance</summary>
+
+  <div class="course-body">
+
+    <div class="badges">
+      <span class="inst-badge">Bayes</span>
+      <span class="role-badge">Graduate Teaching Assistant</span>
+      <span class="meta-badge">BSc</span>
+      <span class="meta-badge">Python</span>
+      <span class="meta-badge">Tableau</span>
+    </div>
+
+    <p>
+      <strong>Bayes Business School</strong> —
+      <em>a.y. 2026–2027</em> (AF1202)<br>
+      Module Leader:
+      <a href="https://www.bayes.citystgeorges.ac.uk/faculties-and-research/experts/parastoo-mousavi"
+         target="_blank"
+         rel="noopener noreferrer">
+        Dr. Parastoo Mousavi
+      </a>
+    </p>
+
+    <p>
+      Topics covered: graphical and numerical data summaries, data cleaning
+      and visualisation in Python, continuous random variables and key
+      distributions, hypothesis testing, linear regression and OLS
+      estimation, regression model assumptions and diagnostics, and
+      interactive dashboards in Tableau.
+    </p>
+
+  </div>
+
+</details>
+
+
 
 <!-- =======================================================
      QUANTITATIVE FINANCE & TRADING
@@ -506,36 +544,6 @@ author_profile: true
 
 </details>
 
-
-<details class="course-details">
-
-  <summary>Quantitative and Algorithmic Trading</summary>
-
-  <div class="course-body">
-
-    <div class="badges">
-      <span class="inst-badge">Bayes</span>
-      <span class="role-badge">Graduate Teaching Assistant</span>
-      <span class="meta-badge">Undergraduate</span>
-      <span class="meta-badge">Python</span>
-    </div>
-
-    <p>
-      <strong>Bayes Business School</strong> —
-      <em>a.y. 2026–2027</em>
-    </p>
-
-    <p>
-      Topics covered: market microstructure and trading mechanisms, order
-      types and liquidity, quantitative trading-model design and evaluation,
-      return forecasting and risk estimation, transaction-cost modelling,
-      price discovery and econometric measures of liquidity, and algorithmic
-      and high-frequency trading.
-    </p>
-
-  </div>
-
-</details>
 
 
 <!-- =======================================================
@@ -863,13 +871,14 @@ Graduate Teaching Assistant covering: no-arbitrage FX forward pricing, derivativ
 
 ---
 <details markdown="1">
-<summary>Quantitative and Algorithmic Trading</summary>
+<summary>Research Methods for Accounting & Finance</summary>
 
-**Undergraduate level** — Bayes Business School *(a.y. 2026–2027)*
+**BSc level** — Bayes Business School *(a.y. 2026–2027)*  
+Led by [Dr. Parastoo Mousavi](https://www.bayes.citystgeorges.ac.uk/faculties-and-research/experts/parastoo-mousavi)
 
-Graduate Teaching Assistant covering: market microstructure and trading mechanisms, order types and liquidity, quantitative trading model design and evaluation, return forecasting and risk estimation, transaction cost modelling, price discovery and econometric measures of liquidity, algorithmic and high-frequency trading.
+Graduate Teaching Assistant for AF1202, covering: graphical and numerical data summaries, data cleaning and visualisation in Python, continuous random variables and key distributions, hypothesis testing, linear regression and OLS estimation, regression model assumptions and diagnostics, interactive dashboards in Tableau.
 
-*Tools: Python.*
+*Tools: Python, Tableau.*
 
 </details>
 
