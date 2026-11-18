@@ -188,13 +188,13 @@ with [L. Ballotta](https://scholar.google.com/citations?user=rmmGBqMAAAAJ&hl=en)
 ---
 
 ## Work in Progress
-
+<!--- 
 **Beyond Lévy NIG: Joint SPX–VIX Calibration with Factor Clocks**  
 
 with [A. A. Hekimoglu](https://scholar.google.com/citations?user=w1okjtwAAAAJ&hl=en)
 
 ---
-
+--->
 **Technical Efficiency: A Regularization-Based Framework**
 
 with [F. Centrone](https://upobook.uniupo.it/francesca.centrone) and [A. Goia](https://scholar.google.com/citations?user=qP_hjCcAAAAJ&hl=it)
