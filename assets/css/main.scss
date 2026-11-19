@@ -117,9 +117,10 @@
 }
 
 /* Posizionamento della fotografia */
+/* Foto più piccola e leggermente spostata */
 .profile-medal-front {
-  object-fit: cover;
-  object-position: center 35%;
+  object-fit: cover !important;
+  transform: translate(-3px, 6px) scale(0.94);
 }
 
 /* Orsacchiotto centrato */
