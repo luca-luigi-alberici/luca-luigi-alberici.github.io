@@ -44,3 +44,62 @@
 .author__urls-wrapper .author__desktop a {
   display: inline;
 }
+
+
+/* Medaglia rotante del profilo */
+.profile-medal {
+  width: 175px;
+  height: 175px;
+  max-width: 100%;
+  aspect-ratio: 1;
+  perspective: 1000px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.profile-medal-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.8s ease;
+}
+
+.profile-medal:hover .profile-medal-inner,
+.profile-medal.flipped .profile-medal-inner,
+.profile-medal:focus-visible .profile-medal-inner {
+  transform: rotateY(180deg);
+}
+
+.profile-medal .profile-medal-inner img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  padding: 0;
+  box-sizing: border-box;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #c7a65b;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+}
+
+.profile-medal-back {
+  transform: rotateY(180deg);
+}
+
+@media (max-width: 1023px) {
+  .profile-medal {
+    width: 64px;
+    height: 64px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .profile-medal-inner {
+    transition: none;
+  }
+}
