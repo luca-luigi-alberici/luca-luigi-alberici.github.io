@@ -579,6 +579,16 @@ author_profile: true
   <div class="conf-item">
 
     <div class="talk-conference">
+      <a href="https://informaconnect.com/quantminds-international/">
+        QuantMinds International 2026
+      </a>
+    </div>
+
+    <div class="talk-venue">
+      Informa Connect, InterContinental London – The O2, London, UK — 16–19 November 2026
+    </div>
+
+    <div class="talk-conference">
       <a href="https://www.wbs.ac.uk/events/view/9577/">
         5th Annual WBS Gillmore Centre Academic Conference on DeFi &amp; Digital Currencies
       </a>
@@ -619,13 +629,13 @@ author_profile: true
   </div>
 
   <div class="legend-item">
-    <img src="/images/dinunno.jpeg" alt="with Giulia Di Nunno">
-    <div class="legend-caption">Giulia Di Nunno</div>
+    <img src="/images/ramacont.jpeg" alt="with Rama Cont">
+    <div class="legend-caption">Rama Cont</div>
   </div>
 
   <div class="legend-item">
-    <img src="/images/dupire.jpeg" alt="with Bruno Dupire">
-    <div class="legend-caption">Bruno Dupire</div>
+    <img src="/images/dinunno.jpeg" alt="with Giulia Di Nunno">
+    <div class="legend-caption">Giulia Di Nunno</div>
   </div>
 
 </div>
@@ -636,11 +646,16 @@ author_profile: true
 <details class="snapshots-details">
 
   <summary>
-    <span class="show-more">View all snapshots (20) ▼</span>
+    <span class="show-more">View all snapshots (22) ▼</span>
     <span class="show-less">Show fewer ▲</span>
   </summary>
 
   <div class="legends-grid">
+
+    <div class="legend-item">
+      <img src="/images/dupire.jpeg" alt="with Bruno Dupire">
+      <div class="legend-caption">Bruno Dupire</div>
+    </div>
 
     <div class="legend-item">
       <img src="/images/nicoleelk.png" alt="with Nicole El Karoui">
@@ -690,6 +705,11 @@ author_profile: true
     <div class="legend-item">
       <img src="/images/kou.jpeg" alt="with Steven Kou">
       <div class="legend-caption">Steven Kou</div>
+    </div>
+
+    <div class="legend-item">
+      <img src="/images/fabiomercurio.jpeg" alt="with Fabio Mercurio">
+      <div class="legend-caption">Fabio Mercurio</div>
     </div>
 
     <div class="legend-item">
