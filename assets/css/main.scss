@@ -103,3 +103,27 @@
     transition: none;
   }
 }
+
+
+/* Medaglia senza bordo e centrata */
+.profile-medal {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profile-medal .profile-medal-inner img {
+  border: none !important;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.10);
+}
+
+/* Posizionamento della fotografia */
+.profile-medal-front {
+  object-fit: cover;
+  object-position: center 35%;
+}
+
+/* Orsacchiotto centrato */
+.profile-medal-back {
+  object-fit: cover;
+  object-position: center;
+}
