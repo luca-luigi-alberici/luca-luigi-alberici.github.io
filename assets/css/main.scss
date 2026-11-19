@@ -46,21 +46,24 @@
 }
 
 
-/* Medaglia rotante del profilo */
+/* MEDAGLIA ROTANTE - PROFILO */
+
 .profile-medal {
   width: 175px;
   height: 175px;
   max-width: 100%;
   aspect-ratio: 1;
+  margin-left: auto;
+  margin-right: auto;
   perspective: 1000px;
   cursor: pointer;
   border-radius: 50%;
 }
 
 .profile-medal-inner {
+  position: relative;
   width: 100%;
   height: 100%;
-  position: relative;
   transform-style: preserve-3d;
   transition: transform 0.8s ease;
 }
@@ -71,26 +74,37 @@
   transform: rotateY(180deg);
 }
 
+/* Entrambe le facce della medaglia */
 .profile-medal .profile-medal-inner img {
   position: absolute;
-  inset: 0;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   max-width: none;
-  padding: 0;
   box-sizing: border-box;
-  object-fit: cover;
-  border-radius: 50%;
+  padding: 0;
+  margin: 0;
   border: none;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.10);
 }
 
-.profile-medal-back {
+/* Fotografia anteriore */
+.profile-medal .profile-medal-front {
+  transform: rotateY(0deg);
+}
+
+/* Orsacchiotto posteriore */
+.profile-medal .profile-medal-back {
   transform: rotateY(180deg);
 }
 
+/* Dimensioni su smartphone */
 @media (max-width: 1023px) {
   .profile-medal {
     width: 64px;
@@ -98,54 +112,9 @@
   }
 }
 
+/* Accessibilità */
 @media (prefers-reduced-motion: reduce) {
   .profile-medal-inner {
     transition: none;
   }
-}
-
-
-/* Medaglia senza bordo e centrata */
-.profile-medal {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.profile-medal .profile-medal-inner img {
-  border: none !important;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.10);
-}
-
-/* Posizionamento della fotografia */
-/* Foto più piccola e leggermente spostata */
-.profile-medal-front {
-  object-fit: cover !important;
-  transform: translate(-3px, 6px) scale(0.94);
-}
-
-/* Orsacchiotto centrato */
-.profile-medal-back {
-  object-fit: cover;
-  object-position: center;
-}
-
-.profile-medal .profile-medal-front {
-  width: 100% !important;
-  height: 100% !important;
-  left: 0 !important;
-  top: 0 !important;
-  object-fit: cover !important;
-  object-position: 75% 60% !important;
-  transform: none !important;
-  border: none !important;
-}
-
-.profile-medal .profile-medal-front {
-  width: 106% !important;
-  height: 106% !important;
-  left: -3% !important;
-  top: -3% !important;
-  object-fit: cover !important;
-  border: none !important;
-  transform: none !important;
 }
